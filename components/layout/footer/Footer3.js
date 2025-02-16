@@ -8,7 +8,7 @@ export default function Footer3() {
                     <div className="row">
                         <div className="col-lg-3 col-md-3 col-sm-12"><Link href="/"><img alt="Nivia" src="/assets/imgs/template/logo.svg" /></Link>
                             <div className="mt-20 mb-20">
-                                <p className="text-md neutral-600 mb-10">4517 Washington Ave. Manchester, Kentucky 39495</p>
+                                <p className="text-md neutral-600 mb-10">108/26 6th Cross Baseshwaranagar, Bangalore, India - 560079</p>
                                 <p className="text-md neutral-600">Hours: 8:00 - 17:00, Mon - Sat </p>
                             </div>
                         </div>
@@ -49,7 +49,7 @@ export default function Footer3() {
                     <div className="footer-bottom mt-50">
                         <div className="row">
                             <div className="col-md-6 text-md-start text-center">
-                                <p className="text-sm neutral-600">Copyright © 2023 Nivia. All rights reserved.</p>
+                                <p className="text-sm neutral-600">Copyright © 2025 LeadzSite. All rights reserved.</p>
                             </div>
                             <div className="col-md-6 text-md-end text-center">
                                 <ul className="menu-bottom-footer">

@@ -19,7 +19,7 @@ export default function VideoPopup({ style }) {
                 <a className="btn btn-play-2 popup-youtube" onClick={() => setOpen(true)}>
                     <div className="video-play-button-2">
                         <span />
-                    </div> How It Work
+                    </div> Lets Talk about it
                 </a>
             }
 
