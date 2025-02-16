@@ -11,10 +11,10 @@ export default function Section3() {
                     <div className="row align-items-center">
                         <div className="col-lg-5 mb-40">
                             <div className="box-number-award"><img alt="Nivia" src="/assets/imgs/page/homepage6/award.svg" />
-                                <p className="display-2">+<CounterUp count={250} /></p>
-                                <h3 className="heading-3">Awards</h3>
+                                <p className="display-2">+<CounterUp count={500} /></p>
+                                <h3 className="heading-3">Brands</h3>
                             </div>
-                            <h1 className="heading-1 neutral-0">More than 80,000+ companies trusted Nivia Platform</h1>
+                            <h1 className="heading-1 neutral-0"> Happy clients, countless success stories</h1>
                         </div>
                         <div className="col-lg-7 mb-40">
                             <div className="box-sliders-award">

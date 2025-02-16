@@ -9,10 +9,13 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, topBar
                     <div className="top-bar">
                         <div className="container">
                             <div className="top-bar-inner">
-                                <div className="box-top-bar-left"><span className="address-icon text-md">9207 Lakeshore RdShreveport</span>
+                                <div className="box-top-bar-left"><span className="address-icon text-md">Bangalore, India</span>
                                 </div>
-                                <div className="box-top-bar-right"><a className="phone-icon text-md" href="tel:(262) 555-0131">(262)
-                                    555-0131</a><a className="email-icon text-md" href="mailto:contact@nivia.com">contact@nivia.com</a></div>
+                                <div className="box-top-bar-right">
+  <a className="phone-icon text-md" href="tel:8951085496">8951085496</a>
+  <a className="email-icon text-md" href="mailto:nihal@leadzsite">nihal@leadzsite</a>
+</div>
+
                             </div>
                         </div>
                     </div>
@@ -22,7 +25,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, topBar
                         <div className="header-left">
                             <div className="header-logo">
                                 <Link className="d-flex" href="/">
-                                    <img alt="Nivia" src={`/assets/imgs/template/${logoWhite ? "logo" : "logo-black"}.svg`} />
+                                    <img className='headerLogo' alt="LEADZSITE" src={`/assets/imgs/template/${logoWhite ? "logo" : "logo-black"}.svg`} style={{ maxWidth: '30%' }} />
                                 </Link>
                             </div>
                             <div className="header-nav">

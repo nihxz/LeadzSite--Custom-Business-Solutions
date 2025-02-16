@@ -9,7 +9,7 @@ export default function Section2() {
             <section className="section-box wow animate__animated animate__fadeIn box-grow">
                 <div className="box-grow-inner">
                     <div className="container">
-                        <h2 className="display-2">Grow Your Business Fast<br className="d-none d-lg-block" /> with&nbsp;<span className="text-background"><span className="text-linear-3">Nivia Platform</span></span> and
+                        <h2 className="display-2">From Ideas to Impact<br className="d-none d-lg-block" /> with&nbsp;<span className="text-background"><span className="text-linear-3">LeadzSite</span></span> Expert
                             Services</h2>
                     </div>
                     <div className="box-all-group-animate">
@@ -108,7 +108,7 @@ export default function Section2() {
                                                             <rect width={24} height={24} fill="true" />
                                                         </clipPath>
                                                     </defs>
-                                                </svg></span> Digital Marketing</Link></div>
+                                                </svg></span> Unreal Engine</Link></div>
                                         </div>
                                     </li>
                                     <li className="carouselTicker__item">
@@ -126,7 +126,7 @@ export default function Section2() {
                                             <div className="button-view-more"><Link className="btn btn-border-linear" href="#"><span>
                                                 <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M20.8125 7.46087H20.25V4.25462C20.2501 3.9721 20.1696 3.6954 20.0179 3.45709C19.8662 3.21877 19.6495 3.02875 19.3935 2.90939C19.1374 2.79002 18.8526 2.74628 18.5725 2.7833C18.2924 2.82032 18.0287 2.93657 17.8125 3.11837C16.1705 4.4942 14.0971 5.24884 11.955 5.25024H6.74996C5.52011 5.2473 4.3346 5.7093 3.43105 6.54364C2.5275 7.37798 1.97268 8.52299 1.87782 9.74918C1.78295 10.9754 2.15503 12.1921 2.9195 13.1555C3.68396 14.1189 4.78429 14.7577 5.99996 14.944C6.04871 17.6234 6.70683 20.314 7.1062 21.709C7.17395 21.9381 7.3142 22.1391 7.50589 22.2818C7.69758 22.4245 7.93038 22.5011 8.16933 22.5002C8.27871 22.5009 8.38752 22.4844 8.49183 22.4515L10.2975 21.9021C10.5624 21.8218 10.8074 21.6866 11.0166 21.5053C11.2258 21.324 11.3945 21.1007 11.5116 20.8498C11.6287 20.599 11.6916 20.3263 11.6963 20.0495C11.701 19.7727 11.6473 19.498 11.5387 19.2434L11.325 18.7502C11.0156 18.0396 10.7793 17.4921 10.71 17.0965L11.2293 16.8359C11.3075 16.7957 11.369 16.7295 11.4033 16.6486C11.4375 16.5677 11.4423 16.4774 11.4168 16.3934L11.0043 15.0002H11.9418C14.0724 15.0017 16.1354 15.7486 17.7731 17.1115L17.8162 17.1471C18.0327 17.3291 18.2967 17.4454 18.5772 17.4823C18.8576 17.5192 19.1427 17.4751 19.3989 17.3553C19.6551 17.2355 19.8717 17.0449 20.0232 16.806C20.1746 16.5672 20.2546 16.29 20.2537 16.0071V12.7109H20.8162C21.2638 12.7109 21.693 12.5331 22.0094 12.2166C22.3259 11.9001 22.5037 11.4709 22.5037 11.0234V9.14837C22.5037 8.92645 22.4599 8.7067 22.3749 8.50172C22.2899 8.29674 22.1652 8.11055 22.0081 7.9538C21.851 7.79705 21.6646 7.67283 21.4594 7.58824C21.2542 7.50366 21.0344 7.46038 20.8125 7.46087ZM2.62495 10.1252C2.62495 9.03123 3.05955 7.98202 3.83314 7.20843C4.60673 6.43484 5.65594 6.00024 6.74996 6.00024H7.49996V14.239C7.49996 14.239 7.49996 14.239 7.49996 14.2502H6.74996C5.65594 14.2502 4.60673 13.8156 3.83314 13.0421C3.05955 12.2685 2.62495 11.2193 2.62495 10.1252ZM10.6125 16.3127L10.1456 16.5471C10.0842 16.5776 10.0324 16.6243 9.9957 16.6821C9.95901 16.74 9.93887 16.8068 9.93746 16.8752C9.93746 17.4377 10.215 18.0752 10.635 19.0484C10.7043 19.204 10.7756 19.3709 10.8487 19.5434C10.9173 19.7008 10.9514 19.8711 10.9488 20.0428C10.9462 20.2145 10.907 20.3837 10.8337 20.539C10.7611 20.6942 10.6569 20.8326 10.5277 20.9453C10.3986 21.058 10.2474 21.1425 10.0837 21.1934L8.27433 21.7502C8.22942 21.7639 8.18224 21.7684 8.13556 21.7636C8.08887 21.7588 8.04362 21.7447 8.00245 21.7221C7.96155 21.6999 7.92554 21.6697 7.89654 21.6333C7.86755 21.5969 7.84618 21.5551 7.8337 21.5102C7.52245 20.4152 6.81933 17.6777 6.74996 15.0002H10.2206L10.6125 16.3127ZM19.5 16.0071C19.5 16.1466 19.4603 16.2833 19.3854 16.401C19.3105 16.5187 19.2036 16.6126 19.0772 16.6717C18.9508 16.7307 18.8102 16.7525 18.6718 16.7344C18.5335 16.7164 18.4032 16.6592 18.2962 16.5696L18.2531 16.534C16.4804 15.0594 14.2477 14.2515 11.9418 14.2502H8.24996C8.24996 14.2502 8.24996 14.2502 8.24996 14.239V6.00024H11.955C14.2735 5.99873 16.5176 5.18166 18.2943 3.69212C18.4013 3.60198 18.5318 3.54431 18.6704 3.52591C18.809 3.50751 18.9501 3.52916 19.0768 3.58829C19.2035 3.64743 19.3107 3.74158 19.3857 3.85965C19.4607 3.97771 19.5003 4.11476 19.5 4.25462V16.0071ZM21.75 11.0215C21.75 11.2701 21.6512 11.5086 21.4754 11.6844C21.2996 11.8602 21.0611 11.959 20.8125 11.959H20.25V8.20899H20.8125C21.0611 8.20899 21.2996 8.30777 21.4754 8.48358C21.6512 8.6594 21.75 8.89785 21.75 9.14649V11.0215Z" fill="true" />
-                                                </svg></span> Social Media</Link></div>
+                                                </svg></span> Custom Graphic Cards</Link></div>
                                         </div>
                                     </li>
                                     <li className="carouselTicker__item">
@@ -148,7 +148,7 @@ export default function Section2() {
                                                             <rect width={24} height={24} fill="true" />
                                                         </clipPath>
                                                     </defs>
-                                                </svg></span> Development</Link></div>
+                                                </svg></span>App Development</Link></div>
                                         </div>
                                     </li>
                                 </Marquee>
@@ -158,14 +158,10 @@ export default function Section2() {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-6">
-                                <h3 className="heading-3">Take your online presence to the next level with my expert web design
-                                    and content creation services.</h3>
+                                <h3 className="heading-3">A Creative Team in Bangalore crafting success stories since 2018.</h3>
                             </div>
                             <div className="col-lg-6">
-                                <p className="text-xl">Nunc sollicitudin lacus tortor, sit amet commodo mi volutpat sit amet.
-                                    Phasellus mattis pharetra porttitor. Praesent eget nibh massa. Pellentesque pharetra
-                                    eget nisi sit amet luctus. Ut orci purus, ullamcorper vel commodo id, dapibus vel metus.
-                                    Suspendisse ut</p>
+                                <p className="text-xl">Our Expertise is Performance Marketing, Custom Advertisements, Website Development & Graphic Designs </p>
                             </div>
                         </div>
                     </div>
