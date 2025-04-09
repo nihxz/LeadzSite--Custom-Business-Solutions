@@ -95,63 +95,141 @@
     },
     {
         "id":3,
-        "title": "That share a universal hierarchy a large variety of these",
-        "img": "news3.png",
-        "category": "Movie",
-        "author": "miranda h.",
-        "date": "25 April 2023",
+        "title": "Helping Communn Build Meaningful Connections — How Leadz.site Elevated Their Digital Presence",
+        "img": "communn.png",
+        "category": "Community Management Platform",
+        "author": "Nihal S",
+        "date": "9 April 2025",
         "content": [
             {
                 "type": "text",
-                "value": "This is the introduction text before the image."
+                "value": "At Leadz.site, we believe in building more than just campaigns — we build long-term partnerships that grow alongside our clients' goals. One of our most impactful collaborations has been with Communn, a unique community-building platform that bridges the gap between businesses and their local audience, with a special focus on creating real-world experiences through tech."
             },
             {
                 "type": "image",
-                "src": "path/to/image.jpg",
+                "src": "/assets/imgs/page/homepage6/communn2.png",
                 "alt": "Description of the image"
             },
             {
                 "type": "text",
-                "value": "This is the text after the image."
+                "value": "Communn's mission was clear — to help restaurants, studios, and local businesses build communities of loyal customers using events, content, and digital interaction. They weren't just selling a product; they were enabling a lifestyle."
             },
             {
                 "type": "headline",
-                "value": "This is a headline."
+                "value": "Marketing Highlights for Communn"
             },
+            
             {
                 "type": "text",
-                "value": "This is the text under the headline."
+                "value": "We started by identifying what made Communn stand out in a crowded market. After a series of discovery sessions, we built a unique brand narrative: Communities over clicks. This laid the foundation for all marketing efforts going forward — from ad copy to visuals and CTAs."
+            },
+            {
+                "type": "headline",
+                "value": "Brand Positioning & Strategy"
+            }, 
+            {
+                "type": "text",
+                "value": "We started by identifying what made Communn stand out in a crowded market. After a series of discovery sessions, we built a unique brand narrative: Communities over clicks.This laid the foundation for all marketing efforts going forward — from ad copy to visuals and CTAs."
+            },
+            {
+                "type": "headline",
+                "value": "Performance Marketing Campaigns"
+            }, 
+            {
+                "type": "text",
+                "value": "Our ad team rolled out targeted Meta campaigns that focused on creating curiosity and capturing leads — just like Communn wanted. We implemented a mix of: Instagram story ads to boost awareness, Lead magnet forms to collect emails and phone numbers, Local business-centric messaging tailored to yoga studios, cafés, and coworking spaces"
+            },
+            {
+                "type": "headline",
+                "value": "Landing Page Optimization"
+            }, 
+            {
+                "type": "text",
+                "value": "<p>To improve conversions, we created custom landing pages that mirrored the ad messaging and gave users a seamless journey from click to sign-up. These were A/B tested for:</p><ul><li>i. CTA clarity</li><li>ii. Scroll behavior</li><li>iii. Mobile responsiveness</li></ul>"
+            },
+            {
+                "type": "headline",
+                "value": "Video Scripts & Content Production"
+            }, 
+            {
+                "type": "text",
+                "value": "<p>Communn's brand thrives on storytelling. We helped script and produce short-form videos and WhatsApp broadcast flows that drove engagement, encouraged subscriptions, and highlighted successful community case studies.</p>"
+            },
+            {
+                "type": "headline",
+                "value": "Results at a Glance"
+            }, 
+            
+            {
+                "type": "text",
+                "value": "<ul><li>📈 70% increase in lead volume within 2 months</li><li>🐞 30% reduction in cost per lead</li><li>🧠 100% alignment of brand messaging across platforms</li><li>🚀 Launched 3 community programs in under 90 days</li></ul>"
             }
         ]
     },
     {
         "id":4,
-        "title": "Universes were originated from another due to a major",
-        "img": "news4.png",
-        "category": "Sports",
-        "author": "miranda h.",
-        "date": "25 April 2023",
+        "title": "Scaling Internzvalley from Vision to Venture — How Leadz.site Helped Build, Grow, and Thrive",
+        "img": "internz.png",
+        "category": "Digital Marketing",
+        "author": "Nihal S",
+        "date": "9 April 2025",
         "content": [
             {
                 "type": "text",
-                "value": "This is the introduction text before the image."
+                "value": "<p>At Leadz.site, we're not just marketers — we're partners in growth. One of the most inspiring journeys we've had the privilege to be a part of is Internzvalley — a startup that began as a one-man vision and grew into a 150-member powerhouse connecting students to meaningful internship opportunities.</p>"
             },
             {
                 "type": "image",
-                "src": "path/to/image.jpg",
+                "src": "/assets/imgs/page/homepage6/internzvalleybanner.png",
                 "alt": "Description of the image"
             },
             {
+                "type": "headline",
+                "value": "🚀 From 1 to 150: A Journey of Exponential Growth"
+            },
+            {
                 "type": "text",
-                "value": "This is the text after the image."
+                "value": "<p>When Internzvalley first approached us, they were just getting started — one person, one mission, and a big idea. In under two years, with the right blend of strategy, execution, and support, they scaled into a 150-member team with real traction across campuses and startup ecosystems.</p>"
             },
             {
                 "type": "headline",
-                "value": "This is a headline."
+                "value": "1. Built Not One, But Two Full-Scale Websites"
             },
             {
                 "type": "text",
-                "value": "This is the text under the headline."
+                "value": "<p>We designed, developed, and launched two major websites over the course of two years — one for students, and one for startups. Each was built to:</p><ul><li>Clearly communicate Internzvalley's unique value</li><li>Handle large-scale onboarding and applications</li><li>Be responsive, fast, and conversion-optimized</li></ul><p>The updated U/I helped increase sign-ups and gave the brand a professional digital face that scaled with their growth.</p>"
+            },
+            {
+                "type": "headline",
+                "value": "2. Business Strategy & Consultation"
+            },
+            {
+                "type": "text",
+                "value": "<p>Internzvalley wasn't just looking for leads — they were building a new category in the market. We worked closely with their founding team to provide:</p><ul><li>Go-to-market strategy</li><li>Revenue model refinement</li><li>B2B and B2C marketing playbooks</li><li>Operational workflows and automation</li></ul><p>Our insights helped them attract not just users, but investors, partners, and collaborators who believed in their vision.</p>"
+            },
+            {
+                "type": "headline",
+                "value": "3. Performance Marketing & Growth"
+            },
+            {
+                "type": "text",
+                "value": "<p>Once the foundations were set, we turned on the fuel. Our team led Internzvalley's marketing across platforms:</p><ul><li>Meta Ads for student acquisition</li><li>Google Ads for startup onboarding</li><li>Organic campaigns on Instagram and LinkedIn</li><li>Referral-based engagement funnels for campuses</li></ul><p>We didn't just aim for vanity metrics — we delivered real growth in terms of verified leads, completed internships, and brand awareness.</p>"
+            },
+            {
+                "type": "headline",
+                "value": "4. Community Building & Brand Identity"
+            },
+            {
+                "type": "text",
+                "value": "<p>We helped shape Internzvalley's brand personality to resonate with Gen Z and startup founders alike — fun, ambitious, trustworthy, and modern. From their tagline to color palette, from email flows to WhatsApp scripts, every detail was crafted to build trust and relatability.</p>"
+            },
+            {
+                "type": "headline",
+                "value": "📝 The Results?"
+            },
+            {
+                "type": "text",
+                "value": "<ul><li>2 full-scale websites launched</li><li>Scaled from 1 to 150 team members</li><li>3000+ student sign-ups within 90 days</li></ul>"
             }
         ]
     },
