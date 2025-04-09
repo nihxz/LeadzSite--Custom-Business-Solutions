@@ -19,11 +19,11 @@ export default function VideoPopup({ style }) {
                 <a className="btn btn-play-2 popup-youtube" onClick={() => setOpen(true)}>
                     <div className="video-play-button-2">
                         <span />
-                    </div> Lets Talk about it
+                    </div> Learn about ADS
                 </a>
             }
 
-            <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="SZEflIVnhH8" onClose={() => setOpen(false)} />
+            <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="Acoamcz5Yyw" onClose={() => setOpen(false)} />
         </>
     )
 }
