@@ -1,19 +1,97 @@
 [
     {
         "id":1,
-        "title": "Scientists speculate that ours might not be held",
-        "img": "news.png",
-        "category": "Gaming",
-        "author": "miranda h.",
-        "date": "25 April 2023"
+        "title": "Powering the Future of Skill Education ",
+        "img": "ulp.png",
+        "category": "Edu-Tech India",
+        "author": "Nihal S",
+        "date": "7 April 2025",
+        "content": [
+            {
+                "type": "text",
+                "value": "In today's dynamic education landscape, Ulipsu stands out as a pioneer — a one-of-a-kind platform offering multi-skill learning for school students across India. But behind the scenes of this growing EdTech success story lies a powerful engine driving its reach and engagement — Leadz.site, Ulipsu's performance marketing partner."
+            },
+            {
+                "type": "image",
+                "src": "http://localhost:3000/assets/imgs/page/homepage6/ulipsubanner.png",
+                "alt": "Description of the image"
+            },
+            {
+                "type": "text",
+                "value": "Together, this synergy is reshaping how schools discover and adopt 21st-century skill education."
+            },
+            {
+                "type": "headline",
+                "value": "Ulipsu: A Game-Changer in Skill Education"
+            },
+            {
+                "type": "text",
+                "value": "Ulipsu is more than just an EdTech platform. It's a composite skill lab that enables students to explore over 400+ curated modules across 10+ essential skills — from coding and storytelling to entrepreneurship and AI."
+            },
+            {
+                "type": "blockquote",
+                "value": "Leadz.site: Fueling Smart, Scalable Growth "
+            },
+            {
+                "type": "text",
+                "value": "<p>As Ulipsu's performance marketing partner, Leadz.site played a pivotal role in driving growth by targeting and acquiring high-intent leads specifically from A and A+ category schools. Their expertise in optimizing ad campaigns across multiple platforms helped reduce the cost per lead while significantly improving ROI. By delivering actionable, data-driven insights, they elevated the overall quality of leads and enhanced conversion rates. Through these strategically crafted campaigns, Leadz.site ensured that Ulipsu reached the right audiences, allowing school decision-makers to clearly recognize the value of the Ulipsu platform.</p>"
+            },
+            {
+                "type": "headline",
+                "value": "Results That Speak"
+            },
+            {
+                "type": "text",
+                "value": "<p>Thanks to Leadz.site's focused performance marketing:</p><ul><li>Ulipsu saw <strong>month-on-month improvement</strong> in cost-per-lead.</li><li>Engagement from school leaders increased, with more meaningful demos and closures.</li><li>Ulipsu expanded its reach to new regions, strengthening its footprint across India.</li></ul>"
+            },
+            {
+                "type": "headline",
+                "value": "The Perfect Partnership"
+            },
+            {
+                "type": "text",
+                "value": "<p>What made this partnership work? A shared vision. Ulipsu wanted to <strong>transform education</strong>, and Leadz.site knew how to <strong>get that message across effectively</strong>.</p><p>This isn't just a client-agency success story — it's a blueprint for how <strong>EdTech and performance marketing can come together</strong> to create long-term, scalable impact in education.</p>"
+            },
+            {
+                "type": "headline",
+                "value": "What's Next?"
+            },
+            {
+                "type": "text",
+                "value": "<p>With continued support from Leadz.site, Ulipsu is now aiming to scale globally, starting with CBSE schools in G7 countries. The future is bright — and skill-first.</p><hr><p><strong>Are you an EdTech startup or education brand looking to scale smart?</strong><br>👉 Partner with <strong>Leadz.site</strong> — your growth, optimized.</p>"
+            }
+        ]
     },
     {
         "id":2,
-        "title": "The Multiverse is the collection of alternate universes",
-        "img": "news2.png",
-        "category": "Tech",
-        "author": "miranda h.",
-        "date": "25 April 2023"
+        "title": "Aroma Streett Cafe - Branding & Product Photoghaphy",
+        "img": "aromastreettbanner.png",
+        "category": "Swiggy & Zomato Scalling",
+        "author": "Nihal",
+        "date": "25 April 2025",
+        "content": [
+            {
+                "type": "text",
+                "value": "<p>Aroma Streett Cafe, located near MSRIT College, has become a popular spot for students and locals alike. Our team played a crucial role in enhancing their brand presence and performance marketing strategies.</p>"
+            },
+            {
+                "type": "image",
+                "src": "/assets/imgs/page/homepage6/aromastreettbanner.png",
+                "alt": "Aroma Streett Cafe Branding"
+            },
+            {
+                "type": "text",
+                "value": "<p>We focused on boosting their home delivery services through Swiggy and Zomato, ensuring that their delicious offerings reached a wider audience. Additionally, we conducted professional product photography to highlight their menu items, making them irresistible to potential customers.</p>"
+            },
+            {
+                "type": "headline",
+                "value": "Our Approach"
+            },
+            {
+                "type": "text",
+                "value": "<p>Our approach was centered around creating a cohesive brand identity and leveraging digital marketing channels to drive growth. By targeting the right audience and optimizing their online presence, we helped Aroma Streett Cafe achieve significant milestones in their business journey.</p>"
+            }
+        ]
     },
     {
         "id":3,
@@ -21,7 +99,30 @@
         "img": "news3.png",
         "category": "Movie",
         "author": "miranda h.",
-        "date": "25 April 2023"
+        "date": "25 April 2023",
+        "content": [
+            {
+                "type": "text",
+                "value": "This is the introduction text before the image."
+            },
+            {
+                "type": "image",
+                "src": "path/to/image.jpg",
+                "alt": "Description of the image"
+            },
+            {
+                "type": "text",
+                "value": "This is the text after the image."
+            },
+            {
+                "type": "headline",
+                "value": "This is a headline."
+            },
+            {
+                "type": "text",
+                "value": "This is the text under the headline."
+            }
+        ]
     },
     {
         "id":4,
@@ -29,7 +130,30 @@
         "img": "news4.png",
         "category": "Sports",
         "author": "miranda h.",
-        "date": "25 April 2023"
+        "date": "25 April 2023",
+        "content": [
+            {
+                "type": "text",
+                "value": "This is the introduction text before the image."
+            },
+            {
+                "type": "image",
+                "src": "path/to/image.jpg",
+                "alt": "Description of the image"
+            },
+            {
+                "type": "text",
+                "value": "This is the text after the image."
+            },
+            {
+                "type": "headline",
+                "value": "This is a headline."
+            },
+            {
+                "type": "text",
+                "value": "This is the text under the headline."
+            }
+        ]
     },
     {
         "id":5,
@@ -37,7 +161,30 @@
         "img": "news5.png",
         "category": "Gaming",
         "author": "miranda h.",
-        "date": "25 April 2023"
+        "date": "25 April 2023",
+        "content": [
+            {
+                "type": "text",
+                "value": "This is the introduction text before the image."
+            },
+            {
+                "type": "image",
+                "src": "path/to/image.jpg",
+                "alt": "Description of the image"
+            },
+            {
+                "type": "text",
+                "value": "This is the text after the image."
+            },
+            {
+                "type": "headline",
+                "value": "This is a headline."
+            },
+            {
+                "type": "text",
+                "value": "This is the text under the headline."
+            }
+        ]
     },
     {
         "id":6,
@@ -45,7 +192,30 @@
         "img": "news6.png",
         "category": "Tech",
         "author": "miranda h.",
-        "date": "25 April 2023"
+        "date": "25 April 2023",
+        "content": [
+            {
+                "type": "text",
+                "value": "This is the introduction text before the image."
+            },
+            {
+                "type": "image",
+                "src": "path/to/image.jpg",
+                "alt": "Description of the image"
+            },
+            {
+                "type": "text",
+                "value": "This is the text after the image."
+            },
+            {
+                "type": "headline",
+                "value": "This is a headline."
+            },
+            {
+                "type": "text",
+                "value": "This is the text under the headline."
+            }
+        ]
     },
     {
         "id":7,
@@ -53,7 +223,30 @@
         "img": "news7.png",
         "category": "Movie",
         "author": "miranda h.",
-        "date": "25 April 2023"
+        "date": "25 April 2023",
+        "content": [
+            {
+                "type": "text",
+                "value": "This is the introduction text before the image."
+            },
+            {
+                "type": "image",
+                "src": "path/to/image.jpg",
+                "alt": "Description of the image"
+            },
+            {
+                "type": "text",
+                "value": "This is the text after the image."
+            },
+            {
+                "type": "headline",
+                "value": "This is a headline."
+            },
+            {
+                "type": "text",
+                "value": "This is the text under the headline."
+            }
+        ]
     },
     {
         "id":8,
@@ -61,7 +254,30 @@
         "img": "news8.png",
         "category": "Sports",
         "author": "miranda h.",
-        "date": "25 April 2023"
+        "date": "25 April 2023",
+        "content": [
+            {
+                "type": "text",
+                "value": "This is the introduction text before the image."
+            },
+            {
+                "type": "image",
+                "src": "path/to/image.jpg",
+                "alt": "Description of the image"
+            },
+            {
+                "type": "text",
+                "value": "This is the text after the image."
+            },
+            {
+                "type": "headline",
+                "value": "This is a headline."
+            },
+            {
+                "type": "text",
+                "value": "This is the text under the headline."
+            }
+        ]
     },
     {
         "id":9,
@@ -69,7 +285,30 @@
         "img": "news9.png",
         "category": "Gaming",
         "author": "miranda h.",
-        "date": "25 April 2023"
+        "date": "25 April 2023",
+        "content": [
+            {
+                "type": "text",
+                "value": "This is the introduction text before the image."
+            },
+            {
+                "type": "image",
+                "src": "path/to/image.jpg",
+                "alt": "Description of the image"
+            },
+            {
+                "type": "text",
+                "value": "This is the text after the image."
+            },
+            {
+                "type": "headline",
+                "value": "This is a headline."
+            },
+            {
+                "type": "text",
+                "value": "This is the text under the headline."
+            }
+        ]
     },
     {
         "id":10,
@@ -77,7 +316,30 @@
         "img": "news10.png",
         "category": "Tech",
         "author": "miranda h.",
-        "date": "25 April 2023"
+        "date": "25 April 2023",
+        "content": [
+            {
+                "type": "text",
+                "value": "This is the introduction text before the image."
+            },
+            {
+                "type": "image",
+                "src": "path/to/image.jpg",
+                "alt": "Description of the image"
+            },
+            {
+                "type": "text",
+                "value": "This is the text after the image."
+            },
+            {
+                "type": "headline",
+                "value": "This is a headline."
+            },
+            {
+                "type": "text",
+                "value": "This is the text under the headline."
+            }
+        ]
     },
     {
         "id":11,
@@ -85,7 +347,30 @@
         "img": "news11.png",
         "category": "Movie",
         "author": "miranda h.",
-        "date": "25 April 2023"
+        "date": "25 April 2023",
+        "content": [
+            {
+                "type": "text",
+                "value": "This is the introduction text before the image."
+            },
+            {
+                "type": "image",
+                "src": "path/to/image.jpg",
+                "alt": "Description of the image"
+            },
+            {
+                "type": "text",
+                "value": "This is the text after the image."
+            },
+            {
+                "type": "headline",
+                "value": "This is a headline."
+            },
+            {
+                "type": "text",
+                "value": "This is the text under the headline."
+            }
+        ]
     },
     {
         "id":12,
@@ -93,6 +378,29 @@
         "img": "news12.png",
         "category": "Sports",
         "author": "miranda h.",
-        "date": "25 April 2023"
+        "date": "25 April 2023",
+        "content": [
+            {
+                "type": "text",
+                "value": "This is the introduction text before the image."
+            },
+            {
+                "type": "image",
+                "src": "path/to/image.jpg",
+                "alt": "Description of the image"
+            },
+            {
+                "type": "text",
+                "value": "This is the text after the image."
+            },
+            {
+                "type": "headline",
+                "value": "This is a headline."
+            },
+            {
+                "type": "text",
+                "value": "This is the text under the headline."
+            }
+        ]
     }
 ]

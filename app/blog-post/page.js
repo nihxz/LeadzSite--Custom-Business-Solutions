@@ -1,4 +1,3 @@
-
 import Layout from "@/components/layout/Layout"
 import Link from 'next/link'
 export default function BlogPost() {
@@ -6,12 +5,12 @@ export default function BlogPost() {
     return (
         <>
 
-            <Layout headerStyle={1} footerStyle={1} headerCls="header-style-2 header-style-4" >
+            <Layout headerStyle={1} footerStyle={3} headerCls="header-style-2 header-style-4" >
 
                 <section className="section-box box-content-blog-2 box-content-blog-post">
                     <div className="container">
                         <div className="text-center blog-head"><span className="btn btn-brand-4-sm">Technology</span>
-                            <h2 className="heading-2 mb-20 mt-15">Perfect product images with Generative AI in Nivia platform</h2>
+                            <h2 className="heading-2 mb-20 mt-15">Ulipsu product images with Generative AI in Nivia platform</h2>
                             <p className="text-lg">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,</p>
                         </div>
                         <div className="row">
@@ -25,7 +24,7 @@ export default function BlogPost() {
                                         <p>The toppings you may chose for that TV dinner pizza slice when you forgot to shop for foods, the paint you may slap on your face to impress the new boss is your business. But what about your daily bread? </p><img src="/assets/imgs/page/blog/img-detail2.png" alt="Nivia" />
                                         <p>The toppings you may chose for that TV dinner pizza slice when you forgot to shop for foods, the paint you may slap on your face to impress the new boss is your business. But what about your daily bread? Not so fast, I'd say, there are some redeeming factors in favor of greeking text, as its use is merely the symptom of a worse problem to take into consideration.</p>
                                         <p>Design comps, layouts, wireframes—will your clients accept that you go about things the facile way? Authorities in our business will tell in no uncertain terms that Lorem Ipsum is that huge, huge no no to forswear forever. </p>
-                                        <blockquote>Design comps, layouts, wireframes—we believe that clients will surely accept that you go about things the facile way. It’s a matter of time.</blockquote>
+                                        <blockquote>Design comps, layouts, wireframes—we believe that clients will surely accept that you go about things the facile way. It's a matter of time.</blockquote>
                                         <p>Design comps, layouts, wireframes—will your clients accept that you go about things the facile way? Authorities in our business will tell in no uncertain terms that Lorem Ipsum is that huge, huge no no to forswear forever. </p>
                                         <p>The toppings you may chose for that TV dinner pizza slice when you forgot to shop for foods, the paint you may slap on your face to impress the new boss is your business. But what about your daily bread? Not so fast, I'd say, there are some redeeming factors in favor of greeking text, as its use is merely the symptom of a worse problem to take into consideration.</p>
                                         <p>Not so fast, I'd say, there are some redeeming factors in favor of greeking text, as its use is merely the symptom of a worse problem to take into consideration.</p>

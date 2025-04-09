@@ -1,51 +1,42 @@
-
-
 export default function Section5() {
     return (
-        <>
-
-            <section className="section-box box-section-5">
-                <div className="container">
-                    <div className="row align-items-center">
-                        <div className="col-lg-5 mb-40">
-                            <div className="box-sec5-img-top"><img className="shape-1" alt="Nivia" src="/assets/imgs/page/homepage6/chart1.png" /><img className="shape-3" alt="Nivia" src="/assets/imgs/page/homepage6/chart2.png" /></div>
-                            <div className="box-sec5-img-bottom"><img className="shape-3" alt="Nivia" src="/assets/imgs/page/homepage6/chart3.png" /><img className="shape-1" alt="Nivia" src="/assets/imgs/page/homepage6/chart4.png" /></div>
-                        </div>
-                        <div className="col-lg-7 mb-40">
-                            <div className="box-info-section5"><span className="text-logo">Nivia -<span className="neutral-500">Platform</span></span>
-                                <h2 className="display-2 text-linear-3 mb-65">Incredibly easy to use, but surprisingly powerful.
-                                </h2>
-                                <div className="box-list-steps box-mw-steps">
-                                    <div className="item-step">
-                                        <div className="step-number"><span>1</span></div>
-                                        <div className="step-info">
-                                            <h3>Create your account</h3>
-                                            <p className="text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                                lobortis arcu enim urna adipiscing praesent</p>
-                                        </div>
+        <section className="section-box box-section-5">
+            <div className="container">
+                <div className="row align-items-center">
+                    <div className="col-lg-5 mb-40">
+                        <div className="box-sec5-img-top"><img className="shape-1" alt="Leadzsite" src="/assets/imgs/page/homepage6/chart1.png" /><img className="shape-3" alt="Performance Marketing" src="/assets/imgs/page/homepage6/chart2.png" /></div>
+                        <div className="box-sec5-img-bottom"><img className="shape-3" alt="Performance Marking bangalore" src="/assets/imgs/page/homepage6/INNOVATION.png" /><img className="shape-1" alt="Nivia" src="/assets/imgs/page/homepage6/clock.png" /></div>
+                    </div>
+                    <div className="col-lg-7 mb-40">
+                        <div className="box-info-section5"><span className="text-logo">Leadzsite<span className="neutral-500"> Intelligence</span></span>
+                            <h2 className="display-2 text-linear-3 mb-65">Our Game Plan</h2>
+                            <div className="box-list-steps box-mw-steps">
+                                <div className="item-step">
+                                    <div className="step-number"><span>1</span></div>
+                                    <div className="step-info">
+                                        <h3>Digital Presence Audit</h3>
+                                        <p className="text-lg">We analyze your online footprint to uncover strengths, gaps, and growth opportunities.t</p>
                                     </div>
-                                    <div className="item-step">
-                                        <div className="step-number"><span>2</span></div>
-                                        <div className="step-info">
-                                            <h3>Complete your profile</h3>
-                                            <p className="text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                                lobortis arcu enim urna adipiscing praesent</p>
-                                        </div>
+                                </div>
+                                <div className="item-step">
+                                    <div className="step-number"><span>2</span></div>
+                                    <div className="step-info">
+                                        <h3>Strategic Management</h3>
+                                        <p className="text-lg">From content to campaigns, we manage every touchpoint with precision and purpose.</p>
                                     </div>
-                                    <div className="item-step">
-                                        <div className="step-number"><span>3</span></div>
-                                        <div className="step-info">
-                                            <h3>Start your daily tasks</h3>
-                                            <p className="text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                                lobortis arcu enim urna adipiscing praesent</p>
-                                        </div>
+                                </div>
+                                <div className="item-step">
+                                    <div className="step-number"><span>3</span></div>
+                                    <div className="step-info">
+                                        <h3>Continuous Innovation</h3>
+                                        <p className="text-lg">We evolve your strategy with trends, tech, and creative ideas that keep you ahead.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-        </>
+            </div>
+        </section>
     )
 }

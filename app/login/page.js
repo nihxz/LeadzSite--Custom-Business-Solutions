@@ -1,4 +1,3 @@
-
 import Layout from "@/components/layout/Layout"
 import Link from 'next/link'
 export default function Login() {
@@ -6,7 +5,7 @@ export default function Login() {
     return (
         <>
 
-            <Layout headerStyle={1} footerStyle={1} headerCls="header-style-2 header-style-4" >
+            <Layout headerStyle={1} footerStyle={3} headerCls="header-style-2 header-style-4" >
                 <section className="section-box box-content-login">
                     <div className="container">
                         <div className="row align-items-center">
@@ -38,7 +37,7 @@ export default function Login() {
                                             </button>
                                         </div>
                                         <div className="other-login mt-45">
-                                            <p className="text-md neutral-500">Don’t have an account?<Link className="brand-1-1" href="/register">Sign Up</Link></p>
+                                            <p className="text-md neutral-500">Don't have an account?<Link className="brand-1-1" href="/register">Sign Up</Link></p>
                                         </div>
                                     </form>
                                 </div>

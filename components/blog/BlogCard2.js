@@ -9,8 +9,7 @@ export default function BlogCard2({ item }) {
                     <div className="card-info">
                         <div className="card-meta"> <Link className="btn btn-tag-sm" href={`/blog/${item.id}`}>Education</Link><span className="date-post">16
                             October 2023</span></div>
-                        <div className="card-title"> <Link className="link-new" href={`/blog/${item.id}`}>Savvy
-                            brand marketing: from branding basics to key strategies</Link></div>
+                        <div className="card-title"> <Link className="link-new" href={`/blog/${item.id}`}>InternzValley</Link></div>
                         <div className="card-desc">
                             <p className="text-md neutral-500">Duis mollis, est non commodo luctus, nisi
                                 erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis

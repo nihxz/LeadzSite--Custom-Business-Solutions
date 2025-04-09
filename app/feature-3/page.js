@@ -1,4 +1,3 @@
-
 import CounterUp from '@/components/elements/CounterUp'
 import Layout from "@/components/layout/Layout"
 import Link from 'next/link'
@@ -7,7 +6,7 @@ export default function Feature3() {
     return (
         <>
 
-            <Layout headerStyle={1} footerStyle={1} headerCls="header-style-2 header-style-4" >
+            <Layout headerStyle={1} footerStyle={3} headerCls="header-style-2 header-style-4" >
                 <div>
                     <section className="section-box box-content-feature box-content-feature-3">
                         <div className="container">
@@ -189,8 +188,8 @@ export default function Feature3() {
                     </section>
                     <section className="section-box wow animate__animated animate__fadeIn box-have-project box-have-project-3">
                         <div className="text-center">
-                            <h2 className="heading-1 mt-15 mb-20">Have Any Project?<br className="d-none d-lg-block" />Let’s Talk  Grow your Business</h2>
-                            <p className="text-lg neutral-500 mb-35">We’r ready to help you. Our expert is here, just send a message.</p><Link className="btn btn-brand-4" href="#">Get started
+                            <h2 className="heading-1 mt-15 mb-20">Have Any Project?<br className="d-none d-lg-block" />Let's Talk  Grow your Business</h2>
+                            <p className="text-lg neutral-500 mb-35">We'r ready to help you. Our expert is here, just send a message.</p><Link className="btn btn-brand-4" href="#">Get started
                                 <svg xmlns="http://www.w3.org/2000/svg" width={22} height={22} viewBox="0 0 22 22" fill="none">
                                     <path d="M22 10.9993L18.4791 7.47852V10.3064H0V11.6924H18.4791V14.5203L22 10.9993Z" fill="true" />
                                 </svg></Link>

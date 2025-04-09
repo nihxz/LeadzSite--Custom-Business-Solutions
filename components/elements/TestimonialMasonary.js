@@ -39,108 +39,115 @@ export default function TestimonialMasonary() {
 
     const activeBtn = (value) => (value === filterKey ? "trans current" : "")
     return (
-        <>
-
-            <div className="row mt-115">
-                <div className="col-lg-4">
-                    <div className="card-testimonial">
-                        <div className="card-rates"><img src="/assets/imgs/template/icons/star.svg" alt="Nivia" /><img src="/assets/imgs/template/icons/star.svg" alt="Nivia" /><img src="/assets/imgs/template/icons/star.svg" alt="Nivia" /><img src="/assets/imgs/template/icons/star.svg" alt="Nivia" /><img src="/assets/imgs/template/icons/star.svg" alt="Nivia" /></div>
-                        <div className="card-comment">
-                            <p className="text-md">As a small business most owner, effective communication and
-                                collaboration are key to success. this app's<Link href="#">team collaboration</Link>
-                                with feature has and helped us get things donefaster the interface is user-friendly
-                            </p>
-                        </div>
-                        <div className="card-author">
-                            <div className="author-info"><span className="text-md author-name mr-10">ROBERT FOX</span><span className="text-lg neutral-500">@Amazon</span></div>
-                            <div className="author-image"><img src="/assets/imgs/page/homepage6/author.png" alt="Nivia" />
-                            </div>
-                        </div>
+        <div className="row mt-115">
+            <div className="col-lg-4">
+                <div className="card-testimonial">
+                    <div className="card-rates">
+                        {[...Array(5)].map((_, i) => (
+                            <img key={i} src="/assets/imgs/template/icons/star.svg" alt="Rating star" />
+                        ))}
                     </div>
-                </div>
-                <div className="col-lg-4">
-                    <div className="card-testimonial">
-                        <div className="card-rates"><img src="/assets/imgs/template/icons/star.svg" alt="Nivia" /><img src="/assets/imgs/template/icons/star.svg" alt="Nivia" /><img src="/assets/imgs/template/icons/star.svg" alt="Nivia" /><img src="/assets/imgs/template/icons/star.svg" alt="Nivia" /><img src="/assets/imgs/template/icons/star.svg" alt="Nivia" /></div>
-                        <div className="card-comment">
-                            <p className="text-md">Little in examination transmitting the and country with it profitable
-                                sure wrong continued in the queen's perhaps and simple fat denied adding worthy
-                                little use as some he so high down am week conduct esteems by cottage to pasture
-                                Little in examination transmitting the and country</p>
-                        </div>
-                        <div className="card-author">
-                            <div className="author-info"><span className="text-md author-name mr-10">ROBERT FOX</span><span className="text-lg neutral-500">@Amazon</span></div>
-                            <div className="author-image"><img src="/assets/imgs/page/homepage6/author2.png" alt="Nivia" />
-                            </div>
-                        </div>
+                    <div className="card-comment">
+                        <p className="text-md">"Their performance marketing expertise transformed our business. Our cost per acquisition dropped by 45% while conversion rates increased by 180%. The ROI from their campaigns exceeded our expectations."</p>
                     </div>
-                </div>
-                <div className="col-lg-4">
-                    <div className="card-testimonial">
-                        <div className="card-rates"><img src="/assets/imgs/template/icons/star.svg" alt="Nivia" /><img src="/assets/imgs/template/icons/star.svg" alt="Nivia" /><img src="/assets/imgs/template/icons/star.svg" alt="Nivia" /><img src="/assets/imgs/template/icons/star.svg" alt="Nivia" /><img src="/assets/imgs/template/icons/star.svg" alt="Nivia" /></div>
-                        <div className="card-comment">
-                            <p className="text-md">As a small business most owner, effective communication and
-                                collaboration are key to success. this app's<Link href="#">team collaboration</Link>
-                                with feature has and helped us get things donefaster the interface is user-friendly
-                                Comfort reached gay perhaps chamber his six detract besides add. Moonlight newspaper
-                                up its enjoyment agreeable depending Comfort reached gay perhaps chamber his six</p>
-                        </div>
-                        <div className="card-author">
-                            <div className="author-info"><span className="text-md author-name mr-10">ROBERT FOX</span><span className="text-lg neutral-500">@Amazon</span></div>
-                            <div className="author-image"><img src="/assets/imgs/page/homepage6/author3.png" alt="Nivia" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-lg-4">
-                    <div className="card-testimonial">
-                        <div className="card-rates"><img src="/assets/imgs/template/icons/star.svg" alt="Nivia" /><img src="/assets/imgs/template/icons/star.svg" alt="Nivia" /><img src="/assets/imgs/template/icons/star.svg" alt="Nivia" /><img src="/assets/imgs/template/icons/star.svg" alt="Nivia" /><img src="/assets/imgs/template/icons/star.svg" alt="Nivia" /></div>
-                        <div className="card-comment">
-                            <p className="text-md">As a small business most owner, effective communication and
-                                collaboration are key to success. this app's with feature has and helped us get
-                                things donefaster the interface is user-friendly Little in examination transmitting
-                                the and country with it profitable sure wrong continued in the queen's perhaps
-                                and simple fat denie</p>
-                        </div>
-                        <div className="card-author">
-                            <div className="author-info"><span className="text-md author-name mr-10">ROBERT FOX</span><span className="text-lg neutral-500">@Amazon</span></div>
-                            <div className="author-image"><img src="/assets/imgs/page/homepage6/author4.png" alt="Nivia" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-lg-4">
-                    <div className="card-testimonial">
-                        <div className="card-rates"><img src="/assets/imgs/template/icons/star.svg" alt="Nivia" /><img src="/assets/imgs/template/icons/star.svg" alt="Nivia" /><img src="/assets/imgs/template/icons/star.svg" alt="Nivia" /><img src="/assets/imgs/template/icons/star.svg" alt="Nivia" /><img src="/assets/imgs/template/icons/star.svg" alt="Nivia" /></div>
-                        <div className="card-comment">
-                            <p className="text-md">With it profitable sure wrong continued in the queen's perhaps
-                                and simple fat denied adding worthy little use as some he so high down am week
-                                conduct esteems by cottage to pasture. Comfort reached gay perhaps chamber his six
-                                detract besides add. Moonlight newspaper. the queen's perhaps and simple fat
-                                denied adding worthy little use as some he so high</p>
-                        </div>
-                        <div className="card-author">
-                            <div className="author-info"><span className="text-md author-name mr-10">ROBERT FOX</span><span className="text-lg neutral-500">@Amazon</span></div>
-                            <div className="author-image"><img src="/assets/imgs/page/homepage6/author5.png" alt="Nivia" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-lg-4">
-                    <div className="card-testimonial">
-                        <div className="card-rates"><img src="/assets/imgs/template/icons/star.svg" alt="Nivia" /><img src="/assets/imgs/template/icons/star.svg" alt="Nivia" /><img src="/assets/imgs/template/icons/star.svg" alt="Nivia" /><img src="/assets/imgs/template/icons/star.svg" alt="Nivia" /><img src="/assets/imgs/template/icons/star.svg" alt="Nivia" /></div>
-                        <div className="card-comment">
-                            <p className="text-md">As a small business most owner, effective communication and
-                                collaboration are key to success. this app's with feature has and helped us get
-                                things donefaster the interface is user-friendly</p>
-                        </div>
-                        <div className="card-author">
-                            <div className="author-info"><span className="text-md author-name mr-10">ROBERT FOX</span><span className="text-lg neutral-500">@Amazon</span></div>
-                            <div className="author-image"><img src="/assets/imgs/page/homepage6/author.png" alt="Nivia" />
-                            </div>
+                    <div className="card-author">
+                        <div className="author-info">
+                            <span className="text-md author-name mr-10">Aditya Sharma</span>
+                            <span className="text-lg neutral-500">CEO, TechVision Solutions</span>
                         </div>
                     </div>
                 </div>
             </div>
-        </>
+            <div className="col-lg-4">
+                <div className="card-testimonial">
+                    <div className="card-rates">
+                        {[...Array(5)].map((_, i) => (
+                            <img key={i} src="/assets/imgs/template/icons/star.svg" alt="Rating star" />
+                        ))}
+                    </div>
+                    <div className="card-comment">
+                        <p className="text-md">"The website they developed for us is stunning and performs brilliantly. Load times decreased by 70%, and our mobile conversion rate doubled. Their attention to UI/UX details made all the difference."</p>
+                    </div>
+                    <div className="card-author">
+                        <div className="author-info">
+                            <span className="text-md author-name mr-10">Meera Patel</span>
+                            <span className="text-lg neutral-500">Founder, StyleBazaar</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="col-lg-4">
+                <div className="card-testimonial">
+                    <div className="card-rates">
+                        {[...Array(5)].map((_, i) => (
+                            <img key={i} src="/assets/imgs/template/icons/star.svg" alt="Rating star" />
+                        ))}
+                    </div>
+                    <div className="card-comment">
+                        <p className="text-md">"Their product photography elevated our e-commerce presence. The high-quality images increased our product page conversion rates by 85%. Professional, creative, and detail-oriented service."</p>
+                    </div>
+                    <div className="card-author">
+                        <div className="author-info">
+                            <span className="text-md author-name mr-10">Arjun Mehta</span>
+                            <span className="text-lg neutral-500">Director, Fashion Mantra</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="col-lg-4">
+                <div className="card-testimonial">
+                    <div className="card-rates">
+                        {[...Array(5)].map((_, i) => (
+                            <img key={i} src="/assets/imgs/template/icons/star.svg" alt="Rating star" />
+                        ))}
+                    </div>
+                    <div className="card-comment">
+                        <p className="text-md">"Outstanding performance marketing results! They optimized our campaigns across Google Ads and Meta, reducing our ad spend by 35% while increasing lead quality. The data-driven approach was impressive."</p>
+                    </div>
+                    <div className="card-author">
+                        <div className="author-info">
+                            <span className="text-md author-name mr-10">Kavita Reddy</span>
+                            <span className="text-lg neutral-500">CMO, CloudTech India</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="col-lg-4">
+                <div className="card-testimonial">
+                    <div className="card-rates">
+                        {[...Array(5)].map((_, i) => (
+                            <img key={i} src="/assets/imgs/template/icons/star.svg" alt="Rating star" />
+                        ))}
+                    </div>
+                    <div className="card-comment">
+                        <p className="text-md">"Their digital marketing strategy completely transformed our online presence. The combination of SEO, content marketing, and performance ads increased our monthly revenue by 250%."</p>
+                    </div>
+                    <div className="card-author">
+                        <div className="author-info">
+                            <span className="text-md author-name mr-10">Rahul Verma</span>
+                            <span className="text-lg neutral-500">CEO, Digital Pioneers</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="col-lg-4">
+                <div className="card-testimonial">
+                    <div className="card-rates">
+                        {[...Array(5)].map((_, i) => (
+                            <img key={i} src="/assets/imgs/template/icons/star.svg" alt="Rating star" />
+                        ))}
+                    </div>
+                    <div className="card-comment">
+                        <p className="text-md">"The product photography and website development package was perfect for our e-commerce launch. The professional images and fast, responsive website helped us achieve 150% of our first-quarter sales target."</p>
+                    </div>
+                    <div className="card-author">
+                        <div className="author-info">
+                            <span className="text-md author-name mr-10">Priya Malhotra</span>
+                            <span className="text-lg neutral-500">Founder, Artisans of India</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     )
 }

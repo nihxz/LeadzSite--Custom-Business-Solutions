@@ -45,9 +45,9 @@ export default function Team2Slider() {
                         <div className="card-team-2">
                             <div className="card-image"><img src="/assets/imgs/page/homepage2/team1.png" alt="Nivia" /></div>
                             <div className="card-info"><Link href="#">
-                                <h6>Olivia Williams</h6>
+                                <h6>S Mohammed Nihal</h6>
                             </Link>
-                                <p className="text-lg neutral-600">Master Trainer</p>
+                                <p className="text-lg neutral-600">CEO, Performance Marketing Specialist</p>
                             </div>
                         </div>
                     </SwiperSlide>
@@ -55,9 +55,9 @@ export default function Team2Slider() {
                         <div className="card-team-2">
                             <div className="card-image"><img src="/assets/imgs/page/homepage2/team2.png" alt="Nivia" /></div>
                             <div className="card-info"><Link href="#">
-                                <h6>Foysal Khan</h6>
+                                <h6>Shivam Gupta</h6>
                             </Link>
-                                <p className="text-lg neutral-600">Master Trainer</p>
+                                <p className="text-lg neutral-600">Technical Project Manager</p>
                             </div>
                         </div>
                     </SwiperSlide>
@@ -65,9 +65,9 @@ export default function Team2Slider() {
                         <div className="card-team-2">
                             <div className="card-image"><img src="/assets/imgs/page/homepage2/team3.png" alt="Nivia" /></div>
                             <div className="card-info"><Link href="#">
-                                <h6>Ava Smith</h6>
+                                <h6>Rahil M Harihar</h6>
                             </Link>
-                                <p className="text-lg neutral-600">Master Trainer</p>
+                                <p className="text-lg neutral-600">Business Strategy & Growth</p>
                             </div>
                         </div>
                     </SwiperSlide>
@@ -75,13 +75,13 @@ export default function Team2Slider() {
                         <div className="card-team-2">
                             <div className="card-image"><img src="/assets/imgs/page/homepage2/team4.png" alt="Nivia" /></div>
                             <div className="card-info"><Link href="#">
-                                <h6>Alexander Hall</h6>
+                                <h6>Prajwal Y</h6>
                             </Link>
-                                <p className="text-lg neutral-600">Master Trainer</p>
+                                <p className="text-lg neutral-600">Design & Development</p>
                             </div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide>
+                    {/* <SwiperSlide>
                         <div className="card-team-2">
                             <div className="card-image"><img src="/assets/imgs/page/homepage2/team1.png" alt="Nivia" /></div>
                             <div className="card-info"><Link href="#">
@@ -120,7 +120,7 @@ export default function Team2Slider() {
                                 <p className="text-lg neutral-600">Master Trainer</p>
                             </div>
                         </div>
-                    </SwiperSlide>
+                    </SwiperSlide> */}
                 </Swiper>
             </div>
             <div className="box-button-slider box-button-slider-team">

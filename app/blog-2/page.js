@@ -1,4 +1,3 @@
-
 import BlogPost from '@/components/blog/BlogPost'
 import Layout from "@/components/layout/Layout"
 import Link from 'next/link'
@@ -7,7 +6,7 @@ export default function Blog2() {
     return (
         <>
 
-            <Layout headerStyle={1} footerStyle={1} headerCls="header-style-2 header-style-4" >
+            <Layout headerStyle={1} footerStyle={3} headerCls="header-style-2 header-style-4" >
                 <section className="section-box box-content-blog-2">
                     <div className="container">
                         <div className="text-center blog-head"><span className="icon-1 shape-1" /><span className="icon-2 shape-2" /><span className="icon-3 shape-3" /><span className="btn btn-brand-4-sm">Our Inside</span>

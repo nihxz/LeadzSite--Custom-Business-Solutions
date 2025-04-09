@@ -1,45 +1,68 @@
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
+import { useEffect } from 'react'
+import SearchForm from './SearchForm'
+import MobileMenu from '../MobileMenu'
 
 export default function Header1({ scroll, isMobileMenu, handleMobileMenu, topBar, headerCls, logoWhite }) {
+    const pathname = usePathname();
+    
+    useEffect(() => {
+        if (isMobileMenu) {
+            document.body.classList.add('mobile-menu-active');
+        } else {
+            document.body.classList.remove('mobile-menu-active');
+        }
+    }, [isMobileMenu]);
+    
+    const isActive = (path) => {
+        return pathname === path ? { color: '#9EFF00' } : { color: 'black' };
+    };
+
     return (
         <>
-            <header className={`header ${headerCls ? headerCls : ""} sticky-bar ${scroll ? "stick" : ""}`}>
-                {topBar &&
-                    <div className="top-bar">
-                        <div className="container">
-                            <div className="top-bar-inner">
-                                <div className="box-top-bar-left"><span className="address-icon text-md">Bangalore, India</span>
-                                </div>
-                                <div className="box-top-bar-right">
-                                    <a className="phone-icon text-md" href="tel:8951085496">8951085496</a>
-                                    <a className="email-icon text-md" href="mailto:nihal@leadzsite">nihal@leadzsite</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                }
+            <header className={`header ${headerCls ? headerCls : ""} sticky-bar ${scroll ? "stick" : ""}`} style={{ backgroundColor: 'rgba(255, 255, 255, 0.2)' }}>
                 <div className="container">
-                    <div className="main-header">
-                        <div className="header-left">
-                            <div className="header-logo">
+                    <div className="main-header d-flex align-items-center justify-content-between">
+                        <div className="header-left d-flex align-items-center">
+                            <div className="header-logo me-4">
                                 <Link className="d-flex" href="/">
-                                    <img className='headerLogo' alt="LEADZSITE" src={`/assets/imgs/template/${logoWhite ? "logo" : "logo-black"}.svg`} style={{ maxWidth: '30%' }} />
+                                    <img className='headerLogo' alt="LEADZSITE" src={`/assets/imgs/template/${logoWhite ? "logo" : "logo-black"}.svg`} style={{ maxWidth: '150px', height: 'auto' }} />
                                 </Link>
                             </div>
                             <div className="header-nav">
+                                <nav className="nav-main-menu d-none d-xl-block">
+                                    <ul className="main-menu d-flex align-items-center m-0">
+                                        <li><Link href="/" style={isActive('/')}>Performance Marketing</Link></li>
+                                        <li><Link href="/about" style={isActive('/about')}>About</Link></li>
+                                        <li><Link href="/contact" style={isActive('/contact')}>Contact</Link></li>
+                                        <li><Link href="/service/web-agency" style={isActive('/service/web-agency')}>Get Started</Link></li>
+                                    </ul>
+                                </nav>
                             </div>
                         </div>
-                        <div className="header-right">
-                            <Link className="btn btn-brand-4-medium hover-up" href="#">Get Started
-                                <svg width={22} height={22} viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M22 11.0003L18.4791 7.47949V10.3074H0V11.6933H18.4791V14.5213L22 11.0003Z" fill="true">
-                                    </path>
-                                </svg>
+                        <div className="header-right d-flex align-items-center">
+                            <Link className="btn btn-brand-4-medium hover-up" href="#" style={{ 
+                                backgroundColor: '#9EFF00',
+                                color: '#1A0B2E',
+                                padding: '10px 20px',
+                                borderRadius: '5px',
+                                fontWeight: '500',
+                                marginLeft: '20px'
+                            }}>
+                                Business Consultation →
                             </Link>
+                            <div className="burger-icon burger-icon-white ms-4" onClick={handleMobileMenu}>
+                                <span className="burger-icon-top" />
+                                <span className="burger-icon-mid" />
+                                <span className="burger-icon-bottom" />
+                            </div>
                         </div>
                     </div>
                 </div>
             </header>
+
+            <MobileMenu isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} />
         </>
     )
 }

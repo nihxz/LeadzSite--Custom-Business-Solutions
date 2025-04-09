@@ -1,4 +1,3 @@
-
 import LogoTicker from '@/components/elements/LogoTicker'
 import Layout from "@/components/layout/Layout"
 import Link from 'next/link'

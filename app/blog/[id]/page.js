@@ -14,35 +14,54 @@ export default function BlogDetails() {
         setBlogPost(data.find((data) => data.id == id))
     }, [id])
 
+    const renderContent = (content) => {
+        if (!content) return null;
+        
+        return content.map((item, index) => {
+            switch (item.type) {
+                case 'text':
+                    return <p key={index} style={{ fontSize: '18px', marginBottom: '16px', lineHeight: '1.6', fontFamily: 'Arial, sans-serif', color: '#333' }} dangerouslySetInnerHTML={{ __html: item.value }}></p>;
+                case 'image':
+                    return <div key={index} style={{ textAlign: 'center', marginBottom: '16px' }}><img src={item.src} alt={item.alt} style={{ maxWidth: '100%', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }} /></div>;
+                case 'headline':
+                    return <h3 key={index} style={{ marginBottom: '16px', marginTop: '16px', fontWeight: 'bold', fontSize: '24px', fontFamily: 'Arial, sans-serif', color: '#111' }}>{item.value}</h3>;
+                case 'blockquote':
+                    return <blockquote key={index} style={{
+                        marginBottom: '16px',
+                        paddingLeft: '20px',
+                        borderLeft: '5px solid #84cc16',
+                        fontStyle: 'italic',
+                        fontSize: '20px',
+                        fontFamily: 'Arial, sans-serif',
+                        color: '#333',
+                        backgroundColor: '#f9f9f9',
+                        padding: '10px 20px',
+                        borderRadius: '5px'
+                    }}><p>{item.value}</p></blockquote>;
+                default:
+                    return null;
+            }
+        });
+    };
+
     return (
         <>
-
             {blogPost && (
-                <Layout headerStyle={1} footerStyle={1} headerCls="header-style-2 header-style-4" >
-
+                <Layout headerStyle={1} footerStyle={3} headerCls="header-style-2 header-style-4">
                     <section className="section-box box-content-blog-2 box-content-blog-post">
                         <div className="container">
-                            <div className="text-center blog-head"><span className="btn btn-brand-4-sm">Technology</span>
+                            <div className="text-left blog-head">
+                                <span className="btn btn-brand-4-sm mb-3">{blogPost.category}</span>
                                 <h2 className="heading-2 mb-20 mt-15">{blogPost.title}</h2>
-                                <p className="text-lg">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,</p>
+                                <p className="text-muted mb-4">By {blogPost.author} on {blogPost.date}</p>
+                                {blogPost.content && renderContent(blogPost.content)}
                             </div>
                             <div className="row">
                                 <div className="col-lg-1" />
                                 <div className="col-lg-10">
                                     <div className="box-content-detail-blog">
                                         <div className="box-image-header">
-                                            <img alt="Nivia" src={`/assets/imgs/page/blog/${blogPost.img}`} /></div>
-                                        <div className="box-detail-info">
-                                            <p>Design comps, layouts, wireframes—will your clients accept that you go about things the facile way? Authorities in our business will tell in no uncertain terms that Lorem Ipsum is that huge, huge no no to forswear forever. </p>
-                                            <p>Not so fast, I'd say, there are some redeeming factors in favor of greeking text, as its use is merely the symptom of a worse problem to take into consideration.</p>
-                                            <p>The toppings you may chose for that TV dinner pizza slice when you forgot to shop for foods, the paint you may slap on your face to impress the new boss is your business. But what about your daily bread? </p><img src="/assets/imgs/page/blog/img-detail2.png" alt="Nivia" />
-                                            <p>The toppings you may chose for that TV dinner pizza slice when you forgot to shop for foods, the paint you may slap on your face to impress the new boss is your business. But what about your daily bread? Not so fast, I'd say, there are some redeeming factors in favor of greeking text, as its use is merely the symptom of a worse problem to take into consideration.</p>
-                                            <p>Design comps, layouts, wireframes—will your clients accept that you go about things the facile way? Authorities in our business will tell in no uncertain terms that Lorem Ipsum is that huge, huge no no to forswear forever. </p>
-                                            <blockquote>Design comps, layouts, wireframes—we believe that clients will surely accept that you go about things the facile way. It’s a matter of time.</blockquote>
-                                            <p>Design comps, layouts, wireframes—will your clients accept that you go about things the facile way? Authorities in our business will tell in no uncertain terms that Lorem Ipsum is that huge, huge no no to forswear forever. </p>
-                                            <p>The toppings you may chose for that TV dinner pizza slice when you forgot to shop for foods, the paint you may slap on your face to impress the new boss is your business. But what about your daily bread? Not so fast, I'd say, there are some redeeming factors in favor of greeking text, as its use is merely the symptom of a worse problem to take into consideration.</p>
-                                            <p>Not so fast, I'd say, there are some redeeming factors in favor of greeking text, as its use is merely the symptom of a worse problem to take into consideration.</p>
-                                            <p>Design comps, layouts, wireframes—will your clients accept that you go about things the facile way? Authorities in our business will tell in no uncertain terms that Lorem Ipsum is that huge, huge no no to forswear forever. </p>
+                                            <img alt={blogPost.title} src={`/assets/imgs/page/blog/${blogPost.img}`} className="img-fluid rounded mb-4" />
                                         </div>
                                     </div>
                                 </div>
@@ -57,62 +76,20 @@ export default function BlogDetails() {
                             <div className="row">
                                 <div className="col-lg-4">
                                     <div className="card-news-style-2">
-                                        <div className="card-image"> <Link href="/blog-post"><img src="/assets/imgs/page/blog/detail.png" alt="Nivia" /></Link></div>
-                                        <div className="card-info">
-                                            <div className="card-meta"> <Link className="btn btn-tag-sm" href="/blog-post">Technology</Link><span className="date-post">16 October 2023</span></div>
-                                            <div className="card-title"> <Link className="link-new" href="/blog-post">Savvy brand marketing: from branding basics to key strategies</Link></div>
-                                            <div className="card-more">   <Link className="btn btn-learmore-2" href="/blog-post">Read More
-                                                <svg width={13} height={13} viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <g clipPath="url(#clip0_599_4830)">
-                                                        <path d="M10.6537 3.8149L1.71801 12.7506L0.25 11.2826L9.18469 2.3469H1.31V0.270508H12.7301V11.6906H10.6537V3.8149Z" fill="true" />
-                                                    </g>
-                                                    <defs>
-                                                        <clipPath id="clip0_599_4830">
-                                                            <rect width={13} height={13} fill="white" />
-                                                        </clipPath>
-                                                    </defs>
-                                                </svg></Link></div>
-                                        </div>
+                                        <div className="card-image"><Link href={`/blog/${2}`}><img src="/assets/imgs/page/homepage6/aromastreettbanner.png" alt="Swiigy Setup Google Ads" /></Link></div>
+                                        <div className="card-info"><Link className="heading-5" href={`/blog/${2}`}>Aroma Streett Cafe - Branding & Content Marketing</Link></div>
                                     </div>
                                 </div>
                                 <div className="col-lg-4">
                                     <div className="card-news-style-2">
-                                        <div className="card-image"> <Link href="/blog-post"><img src="/assets/imgs/page/blog/detail2.png" alt="Nivia" /></Link></div>
-                                        <div className="card-info">
-                                            <div className="card-meta"> <Link className="btn btn-tag-sm" href="/blog-post">Technology</Link><span className="date-post">16 October 2023</span></div>
-                                            <div className="card-title"> <Link className="link-new" href="/blog-post">110 drawing ideas to improve your skills you must know in this year</Link></div>
-                                            <div className="card-more">   <Link className="btn btn-learmore-2" href="/blog-post">Read More
-                                                <svg width={13} height={13} viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <g clipPath="url(#clip0_599_4830)">
-                                                        <path d="M10.6537 3.8149L1.71801 12.7506L0.25 11.2826L9.18469 2.3469H1.31V0.270508H12.7301V11.6906H10.6537V3.8149Z" fill="true" />
-                                                    </g>
-                                                    <defs>
-                                                        <clipPath id="clip0_599_4830">
-                                                            <rect width={13} height={13} fill="white" />
-                                                        </clipPath>
-                                                    </defs>
-                                                </svg></Link></div>
-                                        </div>
+                                        <div className="card-image"><Link href={`/blog/${3}`}><img src="/assets/imgs/page/homepage6/communnbanner.png" alt="Communn Meta Ads and Crm Setip" /></Link></div>
+                                        <div className="card-info"><Link className="heading-5" href={`/blog/${3}`}>Communn Io - Community Management Solution Platform Success</Link></div>
                                     </div>
                                 </div>
                                 <div className="col-lg-4">
                                     <div className="card-news-style-2">
-                                        <div className="card-image"> <Link href="/blog-post"><img src="/assets/imgs/page/blog/detail3.png" alt="Nivia" /></Link></div>
-                                        <div className="card-info">
-                                            <div className="card-meta"> <Link className="btn btn-tag-sm" href="/blog-post">Technology</Link><span className="date-post">16 October 2023</span></div>
-                                            <div className="card-title"> <Link className="link-new" href="/blog-post">Perfect product images with Generative AI in Nivia platform</Link></div>
-                                            <div className="card-more">   <Link className="btn btn-learmore-2" href="/blog-post">Read More
-                                                <svg width={13} height={13} viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <g clipPath="url(#clip0_599_4830)">
-                                                        <path d="M10.6537 3.8149L1.71801 12.7506L0.25 11.2826L9.18469 2.3469H1.31V0.270508H12.7301V11.6906H10.6537V3.8149Z" fill="true" />
-                                                    </g>
-                                                    <defs>
-                                                        <clipPath id="clip0_599_4830">
-                                                            <rect width={13} height={13} fill="white" />
-                                                        </clipPath>
-                                                    </defs>
-                                                </svg></Link></div>
-                                        </div>
+                                        <div className="card-image"><Link href={`/blog/${4}`}><img src="/assets/imgs/page/homepage6/internzvalleybanner.png" alt="Internzvalley Website Design and Digital Marketing" /></Link></div>
+                                        <div className="card-info"><Link className="heading-5" href={`/blog/${4}`}>InternzValley - Transcending Knowledge, Empowering Future</Link></div>
                                     </div>
                                 </div>
                             </div>

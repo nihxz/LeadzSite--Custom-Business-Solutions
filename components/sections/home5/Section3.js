@@ -14,7 +14,7 @@ export default function Section3() {
                                 <p className="display-2">+<CounterUp count={500} /></p>
                                 <h3 className="heading-3">Brands</h3>
                             </div>
-                            <h1 className="heading-1 neutral-0"> Happy clients, countless success stories</h1>
+                            <h1 className="heading-1 neutral-0"> Partnering with pioneers across every major industry</h1>
                         </div>
                         <div className="col-lg-7 mb-40">
                             <div className="box-sliders-award">
@@ -24,36 +24,36 @@ export default function Section3() {
                                         <div className="slider-award-1">
                                             <div className="carouselTicker3 carouselTicker_vertical" id="slide-top-award">
                                                 <li className="carouselTicker__item">
-                                                    <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/glossy.png" alt="Nivia" />
+                                                    <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/Network Journey.png" alt="Network Journey" />
                                                     </div>
                                                 </li>
                                                 <li className="carouselTicker__item">
-                                                    <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/ipsum.png" alt="Nivia" />
+                                                    <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/Bang Clothing.png" alt="Bang Clothing" />
                                                     </div>
                                                 </li>
                                                 <li className="carouselTicker__item">
-                                                    <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/leafe.png" alt="Nivia" />
+                                                    <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/Aroma Strett Logo.png" alt="Aroma Product Photography" />
                                                     </div>
                                                 </li>
                                                 <li className="carouselTicker__item">
-                                                    <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/pinpoint.png" alt="Nivia" />
+                                                    <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/Rareseeds.png" alt="Rareseeds" />
                                                     </div>
                                                 </li>
 
                                                 <li className="carouselTicker__item">
-                                                    <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/sitemark.png" alt="Nivia" />
+                                                    <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/Rareseeds.png" alt="Digital marketing" />
                                                     </div>
                                                 </li>
                                                 <li className="carouselTicker__item">
-                                                    <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/pinpoint.png" alt="Nivia" />
+                                                    <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/Aroma Strett Logo.png" alt="Ad account Management" />
                                                     </div>
                                                 </li>
                                                 <li className="carouselTicker__item">
-                                                    <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/sitemark.png" alt="Nivia" />
+                                                    <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/Network Journey.png" alt="Google Ads Service" />
                                                     </div>
                                                 </li>
                                                 <li className="carouselTicker__item">
-                                                    <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/pinpoint.png" alt="Nivia" />
+                                                    <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/Bang Clothing.png" alt="Digital Marketing" />
                                                     </div>
                                                 </li>
                                             </div>
@@ -61,35 +61,35 @@ export default function Section3() {
                                         <div className="slider-award-2">
                                             <div className="carouselTicker4 carouselTicker_vertical" id="slide-bottom-award">
                                                     <li className="carouselTicker__item">
-                                                        <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/sitemark.png" alt="Nivia" />
+                                                        <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/ilmi school.png" alt="Google Ads" />
                                                         </div>
                                                     </li>
                                                     <li className="carouselTicker__item">
-                                                        <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/pinpoint.png" alt="Nivia" />
+                                                        <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/ulipsu.png" alt="Website Development" />
                                                         </div>
                                                     </li>
                                                     <li className="carouselTicker__item">
-                                                        <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/sitemark.png" alt="Nivia" />
+                                                        <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/communn.png" alt="Community Management software" />
                                                         </div>
                                                     </li>
                                                     <li className="carouselTicker__item">
-                                                        <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/pinpoint.png" alt="Nivia" />
+                                                        <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/Webx.png" alt="Meta Ads Management" />
                                                         </div>
                                                     </li>
                                                     <li className="carouselTicker__item">
-                                                        <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/glossy.png" alt="Nivia" />
+                                                        <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/ilmi school.png" alt="CRM Setup" />
                                                         </div>
                                                     </li>
                                                     <li className="carouselTicker__item">
-                                                        <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/ipsum.png" alt="Nivia" />
+                                                        <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/ulipsu.png" alt="Digital Marketing" />
                                                         </div>
                                                     </li>
                                                     <li className="carouselTicker__item">
-                                                        <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/leafe.png" alt="Nivia" />
+                                                        <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/communn.png" alt="Nivia" />
                                                         </div>
                                                     </li>
                                                     <li className="carouselTicker__item">
-                                                        <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/pinpoint.png" alt="Nivia" />
+                                                        <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/Webx.png" alt="Google Ads Expert" />
                                                         </div>
                                                     </li>
                                             </div>
@@ -97,39 +97,39 @@ export default function Section3() {
                                         <div className="slider-award-3">
                                             <div className="carouselTicker5 carouselTicker_vertical" id="slide-top-award-2">
                                                     <li className="carouselTicker__item">
-                                                        <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/ipsum.png" alt="Nivia" />
+                                                        <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/emcee.png" alt="Emcee Sons - Digital Marketing" />
                                                         </div>
                                                     </li>
                                                     <li className="carouselTicker__item">
-                                                        <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/glossy.png" alt="Nivia" />
+                                                        <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/Unique Diaries.png" alt="Nivia" />
                                                         </div>
                                                     </li>
                                                     <li className="carouselTicker__item">
-                                                        <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/leafe.png" alt="Nivia" />
+                                                        <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/sampaadaa.png" alt="Sampaadaa Google Ads" />
                                                         </div>
                                                     </li>
                                                     <li className="carouselTicker__item">
-                                                        <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/pinpoint.png" alt="Nivia" />
+                                                        <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/1952.png" alt="Nivia" />
                                                         </div>
                                                     </li>
                                                     <li className="carouselTicker__item">
-                                                        <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/sitemark.png" alt="Nivia" />
+                                                        <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/Unique Diaries.png" alt="Nivia" />
                                                         </div>
                                                     </li>
                                                     <li className="carouselTicker__item">
-                                                        <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/pinpoint.png" alt="Nivia" />
+                                                        <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/emcee.png" alt="Website Development" />
                                                         </div>
                                                     </li>
                                                     <li className="carouselTicker__item">
-                                                        <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/sitemark.png" alt="Nivia" />
+                                                        <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/sampaadaa.png" alt="Digital Marketing" />
                                                         </div>
                                                     </li>
                                                     <li className="carouselTicker__item">
-                                                        <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/pinpoint.png" alt="Nivia" />
+                                                        <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/1952.png" alt="Digital Marketing Near Me" />
                                                         </div>
                                                     </li>
                                                     <li className="carouselTicker__item">
-                                                        <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/glossy.png" alt="Nivia" />
+                                                        <div className="item-logo-2"><img src="/assets/imgs/page/homepage6/sampaadaa.png" alt="Website Development" />
                                                         </div>
                                                     </li>
                                             </div>

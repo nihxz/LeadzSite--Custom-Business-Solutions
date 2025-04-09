@@ -10,8 +10,8 @@ export default function BlogCard1({ item }) {
                         <img src={`/assets/imgs/page/blog/${item.img}`} alt="img" className="img-fluid" />
                     </Link></div>
                     <div className="card-info">
-                        <div className="card-meta"><Link className="btn btn-tag-sm" href={`/blog/${item.id}`}>Development</Link><span className="date-post">16 October 2023</span></div>
-                        <div className="card-title"><Link className="link-new" href={`/blog/${item.id}`}>How to add analytics to your Android or iOS app easily-3</Link></div>
+                        <div className="card-meta"><Link className="btn btn-tag-sm" href={`/blog/${item.id}`}>Development</Link><span className="date-post">7 October 2023</span></div>
+                        <div className="card-title"><Link className="link-new" href={`/blog/${item.id}`}>Powering the Future of Skill Education — How Leadz.site is Accelerating Ulipsu’s Mission</Link></div>
                         <div className="card-more"><Link className="btn btn-learmore-2" href={`/blog/${item.id}`}>Read More
                             <svg width={13} height={13} viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clipPath="url(#clip0_599_4830)">
