@@ -60,9 +60,33 @@ export default function Section1() {
                             <div className="row align-items-center">
                                 <div className="col-lg-6" style={{ marginBottom: '40px' }}>
                                     <div className="block-banner">
-                                        <h1 className="display-2 mb-40" style={{ color: 'white', whiteSpace: 'nowrap', fontSize: 'calc(2.5rem + 1vw)' }}>Performance <span className="text-bg-brand-4" style={{ color: 'black' }}>Marketing</span> </h1>
-                                        <div className="banner-description text-xl mb-60 mt-20 wow animate__animated animate__fadeInUp" data-wow-delay=".1s">AD Account Management for Google & Meta, ROI Optimised. Leadzsite blends digital marketing, creative designs, and<br className="d-none d-lg-block" /> custom web development solutions.</div>
-                                        <div className="box-buttons mb-40">
+                                        <h1 className="display-2 mb-40 performance-heading" style={{ color: 'white', fontSize: 'calc(2.2rem + 1vw)' }}>
+                                            <div className="heading-container desktop-normal-case">
+                                                <span>Performance</span> <span className="marketing-text text-bg-brand-4" style={{ color: 'black', display: 'inline-block', width: 'auto', padding: '0 10px' }}>Marketing</span>
+                                            </div>
+                                        </h1>
+                                        
+                                        {/* Mobile-only background image */}
+                                        <div className="mobile-only-banner-image">
+                                            <img 
+                                                src="/assets/imgs/page/homepage6/bg-banner2.png" 
+                                                alt="Background" 
+                                                style={{
+                                                    width: '100%',
+                                                    maxWidth: '280px',
+                                                    margin: '15px auto',
+                                                    display: 'block'
+                                                }}
+                                            />
+                                        </div>
+                                        
+                                        <div className="banner-description text-xl mb-40 wow animate__animated animate__fadeInUp" data-wow-delay=".1s">
+                                            <p style={{ marginTop: '15px', marginBottom: '20px' }}>
+                                                AD Account Management for Google & Meta, ROI Optimised. Leadzsite blends digital marketing, creative designs, and<br className="d-none d-lg-block" /> custom web development solutions.
+                                            </p>
+                                        </div>
+                                        
+                                        <div className="box-buttons mb-40" style={{ textAlign: 'center' }}>
                                             <Link 
                                                 className="btn btn-green-linear" 
                                                 href="tel:+918951085496"
@@ -376,6 +400,10 @@ export default function Section1() {
                     pointer-events: none;
                 }
                 
+                .desktop-normal-case {
+                    text-transform: none;
+                }
+                
                 @media (max-width: 991px) {
                     .banner-hero::after {
                         opacity: 0.4;
@@ -404,9 +432,108 @@ export default function Section1() {
                         padding-bottom: 0px;
                     }
                 }
+                
+                /* Mobile styles for Marketing text */
+                @media (max-width: 768px) {
+                    .marketing-text {
+                        display: inline-block;
+                        margin-top: 0;
+                        margin-left: 0;
+                    }
+                    
+                    .performance-heading {
+                        font-size: calc(1.8rem + 0.5vw) !important;
+                        white-space: nowrap;
+                    }
+                }
+                
+                /* Mobile-only phone button */
+                #scrollUp {
+                    position: fixed;
+                    z-index: 2147483647;
+                    bottom: 30px;
+                    left: 30px;
+                    display: none;
+                    align-items: center;
+                    justify-content: center;
+                    width: 50px;
+                    height: 50px;
+                    background-color: rgba(8, 11, 40, 0.8);
+                    border-radius: 50%;
+                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+                }
+                
+                @media (max-width: 768px) {
+                    #scrollUp {
+                        display: flex;
+                    }
+                }
+
+                /* Mobile-only banner image */
+                .mobile-only-banner-image {
+                    display: none;
+                }
+                
+                @media (max-width: 991px) {
+                    .mobile-only-banner-image {
+                        display: block;
+                        margin: 10px auto 15px;
+                        text-align: center;
+                    }
+                    
+                    .performance-heading {
+                        text-align: center;
+                        margin-bottom: 5px !important;
+                        font-size: calc(2rem + 0.6vw) !important;
+                        width: 100%;
+                        max-width: 100%;
+                        overflow: visible;
+                    }
+                    
+                    .heading-container {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        width: 100%;
+                        text-transform: uppercase;
+                    }
+                    
+                    .heading-container span {
+                        margin: 3px 0;
+                        white-space: nowrap;
+                    }
+                    
+                    .marketing-text {
+                        display: inline-block !important;
+                        margin-top: 5px !important;
+                        padding: 2px 15px !important;
+                    }
+                    
+                    .banner-description {
+                        margin-bottom: 25px !important;
+                        margin-top: 10px !important;
+                        padding-top: 0 !important;
+                        text-align: center;
+                        font-size: 15px !important;
+                        line-height: 1.5 !important;
+                        opacity: 0.9;
+                    }
+                    
+                    .box-buttons {
+                        margin-bottom: 35px !important;
+                        margin-top: 10px !important;
+                        justify-content: center;
+                        display: flex;
+                    }
+                    
+                    .block-banner {
+                        padding: 0 10px;
+                    }
+                }
             `}</style>
 
-            <a id="scrollUp" href="tel:+918951085496" style={{position: 'fixed', zIndex: 2147483647, bottom: '30px', left: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+            <a id="scrollUp" href="tel:+918951085496">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M16.975 13.747C16.2383 13.747 15.5266 13.6353 14.8641 13.412C14.5047 13.2887 14.0867 13.3637 13.7891 13.6613L12.3797 14.8073C10.5016 13.4293 9.15531 12.0846 7.79297 10.2211L8.91172 8.8501C9.21094 8.5509 9.28125 8.13674 9.16328 7.78518C8.93906 7.11768 8.82734 6.40584 8.82734 5.67084C8.82734 5.08971 8.35547 4.61784 7.77422 4.61784H5.36797C4.78672 4.61784 4.31484 5.08971 4.31484 5.67084C4.31484 12.3122 9.66797 17.6653 16.3094 17.6653C16.8905 17.6653 17.3623 17.1934 17.3623 16.6122V14.2122C17.3625 13.6311 16.8906 13.747 16.975 13.747Z" fill="#C5FF55"/>
                 </svg>

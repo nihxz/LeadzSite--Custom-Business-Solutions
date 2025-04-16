@@ -307,9 +307,9 @@ export default function Contact() {
                                                             <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                                 <path d="M1 1.5L6 6.5L11 1.5" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                                                             </svg>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                            </div>
+                                            </div>
+                                            </div>
                                                 <div className="col-md-12">
                                                     <div className="form-group mb-15">
                                                         <button 
@@ -323,11 +323,11 @@ export default function Contact() {
                                                             }}
                                                         >
                                                             Submit Enquiry
-                                                            <svg width={22} height={8} viewBox="0 0 22 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <path d="M22 3.99934L18.4791 0.478516V3.30642H0V4.69236H18.4791V7.52031L22 3.99934Z" fill="true" />
-                                                            </svg>
-                                                        </button>
-                                                    </div>
+                                                    <svg width={22} height={8} viewBox="0 0 22 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M22 3.99934L18.4791 0.478516V3.30642H0V4.69236H18.4791V7.52031L22 3.99934Z" fill="true" />
+                                                    </svg>
+                                                </button>
+                                            </div>
                                                 </div>
                                             </div>
                                             {submitStatus && 
