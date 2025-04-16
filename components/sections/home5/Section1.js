@@ -10,7 +10,10 @@ export default function Section1() {
         phone: '', 
         company: '', 
         service: 'Performance Marketing', 
-        message: 'Contact form inquiry from home page' 
+        message: 'Contact form inquiry from home page',
+        designation: '',
+        city: '',
+        state: ''
     })
     const [submitStatus, setSubmitStatus] = useState('')
 
@@ -37,7 +40,10 @@ export default function Section1() {
                 phone: '', 
                 company: '', 
                 service: 'Performance Marketing', 
-                message: 'Contact form inquiry from home page'
+                message: 'Contact form inquiry from home page',
+                designation: '',
+                city: '',
+                state: ''
             })
         } else {
             setSubmitStatus('Failed to send message.')
@@ -120,120 +126,208 @@ export default function Section1() {
                                             <p className="mb-40" style={{ color: 'rgba(255,255,255,0.8)' }}>Fill out the form to hear from our experts</p>
                                         </div>
                                         <form onSubmit={handleSubmit} className="contact-form-hero">
-                                            <div className="form-group" style={{ marginBottom: '25px' }}>
-                                                <input 
-                                                    className="form-control" 
-                                                    type="text" 
-                                                    name="name" 
-                                                    placeholder="Your Name *" 
-                                                    value={formData.name}
-                                                    onChange={handleChange} 
-                                                    required 
-                                                    style={{ 
-                                                        backgroundColor: 'rgba(255, 255, 255, 0.12)', 
-                                                        border: 'none', 
-                                                        color: 'white', 
-                                                        padding: '14px 18px',
-                                                        borderRadius: '10px'
-                                                    }}
-                                                />
-                                            </div>
-                                            <div className="form-group" style={{ marginBottom: '25px' }}>
-                                                <input 
-                                                    className="form-control" 
-                                                    type="email" 
-                                                    name="email" 
-                                                    placeholder="Your Email *" 
-                                                    value={formData.email}
-                                                    onChange={handleChange} 
-                                                    required 
-                                                    style={{ 
-                                                        backgroundColor: 'rgba(255, 255, 255, 0.12)', 
-                                                        border: 'none', 
-                                                        color: 'white', 
-                                                        padding: '14px 18px',
-                                                        borderRadius: '10px'
-                                                    }}
-                                                />
-                                            </div>
-                                            <div className="form-group" style={{ marginBottom: '25px' }}>
-                                                <input 
-                                                    className="form-control" 
-                                                    type="tel" 
-                                                    name="phone" 
-                                                    placeholder="Your Phone *" 
-                                                    value={formData.phone}
-                                                    onChange={handleChange} 
-                                                    required 
-                                                    style={{ 
-                                                        backgroundColor: 'rgba(255, 255, 255, 0.12)', 
-                                                        border: 'none', 
-                                                        color: 'white', 
-                                                        padding: '14px 18px',
-                                                        borderRadius: '10px'
-                                                    }}
-                                                />
-                                            </div>
-                                            <div className="form-group" style={{ marginBottom: '25px' }}>
-                                                <input 
-                                                    className="form-control" 
-                                                    type="text" 
-                                                    name="company" 
-                                                    placeholder="Company Name" 
-                                                    value={formData.company}
-                                                    onChange={handleChange}
-                                                    style={{ 
-                                                        backgroundColor: 'rgba(255, 255, 255, 0.12)', 
-                                                        border: 'none', 
-                                                        color: 'white', 
-                                                        padding: '14px 18px',
-                                                        borderRadius: '10px'
-                                                    }}
-                                                />
-                                            </div>
-                                            <div className="form-group" style={{ marginBottom: '25px' }}>
-                                                <select 
-                                                    className="form-control" 
-                                                    name="service" 
-                                                    value={formData.service}
-                                                    onChange={handleChange} 
-                                                    required
-                                                    style={{ 
-                                                        backgroundColor: 'rgba(255, 255, 255, 0.12)', 
-                                                        border: 'none', 
-                                                        color: 'white', 
-                                                        padding: '14px 18px',
-                                                        borderRadius: '10px'
-                                                    }}
-                                                >
-                                                    <option value="Performance Marketing">Performance Marketing</option>
-                                                    <option value="Video Editing">Video Editing</option>
-                                                    <option value="Website Development">Website Development</option>
-                                                    <option value="Graphic Design">Graphic Design</option>
-                                                    <option value="Mobile App Development">Mobile App Development</option>
-                                                </select>
-                                            </div>
-                                            <div className="form-group mb-20">
-                                                <button 
-                                                    className="btn btn-green-linear w-100" 
-                                                    type="submit" 
-                                                    style={{ 
-                                                        padding: '14px 18px',
-                                                        borderRadius: '10px',
-                                                        border: 'none'
-                                                    }}
-                                                >
-                                                    Get Started
-                                                    <svg width={22} height={22} viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M22 11.0003L18.4791 7.47949V10.3074H0V11.6933H18.4791V14.5213L22 11.0003Z" fill="true" />
-                                                    </svg>
-                                                </button>
+                                            <div className="row">
+                                                <div className="col-md-6">
+                                                    <div className="form-group" style={{ marginBottom: '15px' }}>
+                                                        <input 
+                                                            className="form-control" 
+                                                            type="text" 
+                                                            name="name" 
+                                                            placeholder="Your Name *" 
+                                                            value={formData.name}
+                                                            onChange={handleChange} 
+                                                            required 
+                                                            style={{ 
+                                                                backgroundColor: 'rgba(255, 255, 255, 0.12)', 
+                                                                border: 'none', 
+                                                                color: 'white', 
+                                                                padding: '14px 18px',
+                                                                borderRadius: '10px'
+                                                            }}
+                                                        />
+                                                    </div>
+                                                </div>
+                                                <div className="col-md-6">
+                                                    <div className="form-group" style={{ marginBottom: '15px' }}>
+                                                        <input 
+                                                            className="form-control" 
+                                                            type="email" 
+                                                            name="email" 
+                                                            placeholder="Your Email *" 
+                                                            value={formData.email}
+                                                            onChange={handleChange} 
+                                                            required 
+                                                            style={{ 
+                                                                backgroundColor: 'rgba(255, 255, 255, 0.12)', 
+                                                                border: 'none', 
+                                                                color: 'white', 
+                                                                padding: '14px 18px',
+                                                                borderRadius: '10px'
+                                                            }}
+                                                        />
+                                                    </div>
+                                                </div>
+                                                <div className="col-md-6">
+                                                    <div className="form-group" style={{ marginBottom: '15px' }}>
+                                                        <input 
+                                                            className="form-control" 
+                                                            type="tel" 
+                                                            name="phone" 
+                                                            placeholder="Your Phone *" 
+                                                            value={formData.phone}
+                                                            onChange={handleChange} 
+                                                            required 
+                                                            style={{ 
+                                                                backgroundColor: 'rgba(255, 255, 255, 0.12)', 
+                                                                border: 'none', 
+                                                                color: 'white', 
+                                                                padding: '14px 18px',
+                                                                borderRadius: '10px'
+                                                            }}
+                                                        />
+                                                    </div>
+                                                </div>
+                                                <div className="col-md-6">
+                                                    <div className="form-group" style={{ marginBottom: '15px' }}>
+                                                        <input 
+                                                            className="form-control" 
+                                                            type="text" 
+                                                            name="company" 
+                                                            placeholder="Company Name" 
+                                                            value={formData.company}
+                                                            onChange={handleChange}
+                                                            style={{ 
+                                                                backgroundColor: 'rgba(255, 255, 255, 0.12)', 
+                                                                border: 'none', 
+                                                                color: 'white', 
+                                                                padding: '14px 18px',
+                                                                borderRadius: '10px'
+                                                            }}
+                                                        />
+                                                    </div>
+                                                </div>
+                                                <div className="col-md-6">
+                                                    <div className="form-group" style={{ marginBottom: '15px' }}>
+                                                        <input 
+                                                            className="form-control" 
+                                                            type="text" 
+                                                            name="designation" 
+                                                            placeholder="Your Designation" 
+                                                            value={formData.designation}
+                                                            onChange={handleChange}
+                                                            style={{ 
+                                                                backgroundColor: 'rgba(255, 255, 255, 0.12)', 
+                                                                border: 'none', 
+                                                                color: 'white', 
+                                                                padding: '14px 18px',
+                                                                borderRadius: '10px'
+                                                            }}
+                                                        />
+                                                    </div>
+                                                </div>
+                                                <div className="col-md-6">
+                                                    <div className="form-group" style={{ marginBottom: '15px' }}>
+                                                        <input 
+                                                            className="form-control" 
+                                                            type="text" 
+                                                            name="city" 
+                                                            placeholder="Your City *" 
+                                                            value={formData.city}
+                                                            onChange={handleChange}
+                                                            required
+                                                            style={{ 
+                                                                backgroundColor: 'rgba(255, 255, 255, 0.12)', 
+                                                                border: 'none', 
+                                                                color: 'white', 
+                                                                padding: '14px 18px',
+                                                                borderRadius: '10px'
+                                                            }}
+                                                        />
+                                                    </div>
+                                                </div>
+                                                <div className="col-md-6">
+                                                    <div className="form-group" style={{ marginBottom: '15px' }}>
+                                                        <input 
+                                                            className="form-control" 
+                                                            type="text" 
+                                                            name="state" 
+                                                            placeholder="Your State *" 
+                                                            value={formData.state}
+                                                            onChange={handleChange}
+                                                            required
+                                                            style={{ 
+                                                                backgroundColor: 'rgba(255, 255, 255, 0.12)', 
+                                                                border: 'none', 
+                                                                color: 'white', 
+                                                                padding: '14px 18px',
+                                                                borderRadius: '10px'
+                                                            }}
+                                                        />
+                                                    </div>
+                                                </div>
+                                                <div className="col-md-12">
+                                                    <div className="form-group" style={{ marginBottom: '15px', position: 'relative' }}>
+                                                        <select 
+                                                            className="form-control" 
+                                                            name="service" 
+                                                            value={formData.service}
+                                                            onChange={handleChange} 
+                                                            required
+                                                            style={{ 
+                                                                backgroundColor: 'rgba(255, 255, 255, 0.12)', 
+                                                                border: 'none', 
+                                                                color: 'white', 
+                                                                padding: '14px 18px',
+                                                                borderRadius: '10px',
+                                                                appearance: 'none',
+                                                                WebkitAppearance: 'none',
+                                                                MozAppearance: 'none'
+                                                            }}
+                                                        >
+                                                            <option value="Performance Marketing">Performance Marketing</option>
+                                                            <option value="Video Editing">Video Editing</option>
+                                                            <option value="Website Development">Website Development</option>
+                                                            <option value="Graphic Design">Graphic Design</option>
+                                                            <option value="Mobile App Development">Mobile App Development</option>
+                                                        </select>
+                                                        <div style={{
+                                                            position: 'absolute',
+                                                            right: '15px',
+                                                            top: '50%',
+                                                            transform: 'translateY(-50%)',
+                                                            pointerEvents: 'none'
+                                                        }}>
+                                                            <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M1 1.5L6 6.5L11 1.5" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="col-md-12">
+                                                    <div className="form-group mb-20">
+                                                        <button 
+                                                            className="btn btn-green-linear w-100" 
+                                                            type="submit" 
+                                                            style={{ 
+                                                                padding: '14px 18px',
+                                                                borderRadius: '10px',
+                                                                border: 'none',
+                                                                fontWeight: 'bold'
+                                                            }}
+                                                        >
+                                                            Submit Enquiry
+                                                            <svg width={22} height={22} viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M22 11.0003L18.4791 7.47949V10.3074H0V11.6933H18.4791V14.5213L22 11.0003Z" fill="true" />
+                                                            </svg>
+                                                        </button>
+                                                    </div>
+                                                </div>
                                             </div>
                                             {submitStatus && 
-                                                <div className="text-center mt-25" style={{ 
+                                                <div className="text-center mt-15" style={{ 
                                                     color: submitStatus.includes('success') ? '#4CAF50' : '#f44336',
                                                     padding: '10px',
-                                                    marginTop: '25px' 
+                                                    marginTop: '15px' 
                                                 }}>
                                                     {submitStatus}
                                                 </div>
