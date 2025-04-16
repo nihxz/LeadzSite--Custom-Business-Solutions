@@ -100,4 +100,65 @@
     .laptop-image-container {
         display: none;
     }
+}
+
+/* Custom CSS fixes for logo alignment issues */
+
+/* Fix logo alignment in Section 3 */
+.item-logo-2 {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.item-logo-2 img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 767px) {
+  .item-logo-2 {
+    padding: 15px;
+    min-height: 80px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+  }
+  
+  .carouselTicker3.carouselTicker_vertical .carouselTicker__item, 
+  .carouselTicker4.carouselTicker_vertical .carouselTicker__item, 
+  .carouselTicker5.carouselTicker_vertical .carouselTicker__item {
+    height: auto;
+    min-height: 80px;
+  }
+  
+  /* Mobile-friendly grid layout for logos */
+  .mobile-friendly-logos .list-slider-award {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .mobile-friendly-logos .slider-award-1,
+  .mobile-friendly-logos .slider-award-2,
+  .mobile-friendly-logos .slider-award-3 {
+    width: 100%;
+  }
+  
+  /* Hide scrolling behavior on mobile for better appearance */
+  .mobile-friendly-logos .carouselTicker3,
+  .mobile-friendly-logos .carouselTicker4,
+  .mobile-friendly-logos .carouselTicker5 {
+    height: auto !important;
+    overflow: visible !important;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  /* Ensure logo images are properly centered and sized */
+  .mobile-friendly-logos .item-logo-2 img {
+    max-height: 60px;
+    width: auto;
+  }
 } 

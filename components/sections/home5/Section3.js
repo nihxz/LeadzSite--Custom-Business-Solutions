@@ -1,5 +1,3 @@
-
-
 import CounterUp from '@/components/elements/CounterUp'
 import Marquee from "react-fast-marquee"
 export default function Section3() {
@@ -17,7 +15,7 @@ export default function Section3() {
                             <h1 className="heading-1 neutral-0"> Partnering with pioneers across every major industry</h1>
                         </div>
                         <div className="col-lg-7 mb-40">
-                            <div className="box-sliders-award">
+                            <div className="box-sliders-award mobile-friendly-logos">
                                 <div className="box-sliders-award-inner" />
                                 <div className="box-sliders-award-bottom">
                                     <div className="list-slider-award">
