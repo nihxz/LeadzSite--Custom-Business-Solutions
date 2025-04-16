@@ -8,22 +8,23 @@ export async function POST(req) {
 
         console.log('Received form submission from:', name);
 
-        // Set default values if environment variables are not available
-        const EMAIL_USER = process.env.EMAIL_USER || 'nihal@leadz.site';
-        const EMAIL_PASS = process.env.EMAIL_PASS || 'Nihal@1234';
-        const EMAIL_TO = process.env.EMAIL_TO || 'sales@leadz.site';
-        const SMTP_HOST = process.env.SMTP_HOST || 'smtp.hostinger.com';
-        const SMTP_PORT = parseInt(process.env.SMTP_PORT || '465');
-        const SMTP_SECURE = process.env.SMTP_SECURE !== 'false';
+        // Check if environment variables are set
+        if (!process.env.EMAIL_USER || !process.env.EMAIL_PASS) {
+            console.error('Email environment variables not set');
+            return NextResponse.json({ 
+                success: false, 
+                error: "Server configuration error. Please contact the administrator."
+            }, { status: 500 });
+        }
         
-        // Use the correct SMTP server with fallback values
+        // Use the correct SMTP server from environment variables
         const transporter = nodemailer.createTransport({
-            host: SMTP_HOST,
-            port: SMTP_PORT,
-            secure: SMTP_SECURE,
+            host: process.env.SMTP_HOST,
+            port: parseInt(process.env.SMTP_PORT || '465'),
+            secure: process.env.SMTP_SECURE !== 'false',
             auth: {
-                user: EMAIL_USER,
-                pass: EMAIL_PASS,
+                user: process.env.EMAIL_USER,
+                pass: process.env.EMAIL_PASS,
             },
             tls: {
                 rejectUnauthorized: false
@@ -31,8 +32,8 @@ export async function POST(req) {
         });
 
         const mailOptions = {
-            from: `"Contact Form" <${EMAIL_USER}>`,
-            to: EMAIL_TO,
+            from: `"Contact Form" <${process.env.EMAIL_USER}>`,
+            to: process.env.EMAIL_TO || process.env.EMAIL_USER,
             subject: `Contact Form Submission from ${name} - ${service}`,
             text: `You have a new message from ${name} (${email}):\n\nPhone: ${phone}\nCompany: ${company || 'Not provided'}\nDesignation: ${designation || 'Not provided'}\nCity: ${city}\nState: ${state}\nService: ${service}\n\nMessage:\n${message}`,
             html: `<h3>New Contact Form Submission</h3>
