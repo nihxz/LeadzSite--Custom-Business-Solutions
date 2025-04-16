@@ -60,8 +60,8 @@ export default function Section1() {
                             <div className="row align-items-center">
                                 <div className="col-lg-6" style={{ marginBottom: '40px' }}>
                                     <div className="block-banner">
-                                        <h1 className="display-2 mb-40" style={{ color: 'white' }}>Performance <span className="text-bg-brand-4" style={{ color: 'black' }}>Marketing</span> </h1>
-                                        <div className="banner-description text-xl mb-60 mt-20 wow animate__animated animate__fadeInUp" data-wow-delay=".1s">Leadzsite blends digital marketing, creative designs, and<br className="d-none d-lg-block" /> custom web development solutions to grow your business worldwide.</div>
+                                        <h1 className="display-2 mb-40" style={{ color: 'white', whiteSpace: 'nowrap', fontSize: 'calc(2.5rem + 1vw)' }}>Performance <span className="text-bg-brand-4" style={{ color: 'black' }}>Marketing</span> </h1>
+                                        <div className="banner-description text-xl mb-60 mt-20 wow animate__animated animate__fadeInUp" data-wow-delay=".1s">AD Account Management for Google & Meta, ROI Optimised. Leadzsite blends digital marketing, creative designs, and<br className="d-none d-lg-block" /> custom web development solutions.</div>
                                         <div className="box-buttons mb-40">
                                             <Link 
                                                 className="btn btn-green-linear" 
