@@ -488,6 +488,7 @@ export default function Section1() {
                         width: 100%;
                         max-width: 100%;
                         overflow: visible;
+                        font-weight: bold !important;
                     }
                     
                     .heading-container {
