@@ -1,9 +1,46 @@
+'use client';
 import LogoTicker from '@/components/elements/LogoTicker'
 import Layout from "@/components/layout/Layout"
 import Team2Slider from '@/components/slider/Team2Slider'
 import Link from 'next/link'
+import { useState } from 'react'
 
 export default function Contact() {
+    const [formData, setFormData] = useState({ 
+        name: '', 
+        email: '', 
+        phone: '', 
+        company: '', 
+        designation: '', 
+        city: '', 
+        state: '', 
+        service: 'Performance Marketing', 
+        message: 'Contact form inquiry' 
+    })
+    const [submitStatus, setSubmitStatus] = useState('')
+
+    const handleChange = (e) => {
+        const { name, value } = e.target
+        setFormData({ ...formData, [name]: value })
+    }
+
+    const handleSubmit = async (e) => {
+        e.preventDefault()
+        const response = await fetch('/api/contact', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(formData),
+        })
+
+        if (response.ok) {
+            setSubmitStatus('Message sent successfully!')
+        } else {
+            setSubmitStatus('Failed to send message.')
+        }
+    }
+
     return (
         <>
             <Layout headerStyle={1} footerStyle={3} headerCls="header-style-2 header-style-4">
@@ -94,18 +131,44 @@ export default function Contact() {
                                     <h2 className="mb-20 mt-20">Get in Touch</h2>
                                     <p className="text-md neutral-700">Contact us below and we will get back to you shortly.</p>
                                     <div className="block-form-contact mt-45">
-                                        <form action="#">
+                                        <form onSubmit={handleSubmit}>
                                             <div className="form-group">
                                                 <label htmlFor="fullname">Your Name *</label>
-                                                <input className="form-control" type="text" placeholder="Name" />
+                                                <input className="form-control" type="text" name="name" placeholder="Name" onChange={handleChange} required />
                                             </div>
                                             <div className="form-group">
                                                 <label htmlFor="fullname">Your Email *</label>
-                                                <input className="form-control" type="text" placeholder="email@website.com" />
+                                                <input className="form-control" type="email" name="email" placeholder="email@website.com" onChange={handleChange} required />
                                             </div>
                                             <div className="form-group">
-                                                <label htmlFor="fullname">Message *</label>
-                                                <textarea className="form-control" rows={7} placeholder="How can we help you?" />
+                                                <label htmlFor="phone">Phone Number *</label>
+                                                <input className="form-control" type="tel" name="phone" placeholder="Your Phone Number" onChange={handleChange} required />
+                                            </div>
+                                            <div className="form-group">
+                                                <label htmlFor="company">Company Name</label>
+                                                <input className="form-control" type="text" name="company" placeholder="Your Company" onChange={handleChange} />
+                                            </div>
+                                            <div className="form-group">
+                                                <label htmlFor="designation">Designation</label>
+                                                <input className="form-control" type="text" name="designation" placeholder="Your Designation" onChange={handleChange} />
+                                            </div>
+                                            <div className="form-group">
+                                                <label htmlFor="city">City *</label>
+                                                <input className="form-control" type="text" name="city" placeholder="Your City" onChange={handleChange} required />
+                                            </div>
+                                            <div className="form-group">
+                                                <label htmlFor="state">State *</label>
+                                                <input className="form-control" type="text" name="state" placeholder="Your State" onChange={handleChange} required />
+                                            </div>
+                                            <div className="form-group">
+                                                <label htmlFor="service">Service *</label>
+                                                <select className="form-control" name="service" onChange={handleChange} required>
+                                                    <option value="Performance Marketing">Performance Marketing</option>
+                                                    <option value="Video Editing">Video Editing</option>
+                                                    <option value="Website Development">Website Development</option>
+                                                    <option value="Graphic Design">Graphic Design</option>
+                                                    <option value="Mobile App Development">Mobile App Development</option>
+                                                </select>
                                             </div>
                                             <div className="form-group">
                                                 <button className="btn btn-black btn-rounded" type="submit">
@@ -116,21 +179,8 @@ export default function Contact() {
                                                 </button>
                                             </div>
                                         </form>
+                                        {submitStatus && <p>{submitStatus}</p>}
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section className="section-box wow animate__animated animate__fadeIn box-our-team-2">
-                        <div className="box-our-team-2-inner">
-                            <div className="container">
-                                <div className="text-center">
-                                    <Link className="btn btn-brand-4-sm" href="#">Our people</Link>
-                                    <h2 className="mb-20 mt-20">Meet Our Team</h2>
-                                    <p className="text-md neutral-500">This is our team, a lot of smiling happy people who work hard to<br className="d-none d-lg-block" />empower your teams.</p>
-                                </div>
-                                <div className="box-swiper mt-60">
-                                    <Team2Slider />
                                 </div>
                             </div>
                         </div>

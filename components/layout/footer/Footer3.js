@@ -49,17 +49,14 @@ export default function Footer3() {
                         <div className="text-start mt-70">
                             <h6 className="text-heading-6 mb-20">Connect With Us</h6>
                             <div className="box-socials-footer">
-                                <a className="icon-socials icon-facebook" href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                                <a className="icon-socials icon-facebook" href="https://www.facebook.com/profile.php?id=61574748780602" target="_blank" rel="noopener noreferrer">
                                     <img alt="Facebook" src="/assets/imgs/template/icons/fb.svg" />
                                 </a>
-                                <a className="icon-socials icon-instagram" href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                                <a className="icon-socials icon-instagram" href="https://www.instagram.com/leadz.site/" target="_blank" rel="noopener noreferrer">
                                     <img alt="Instagram" src="/assets/imgs/template/icons/in.svg" />
                                 </a>
-                                <a className="icon-socials icon-twitter" href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                                    <img alt="Twitter" src="/assets/imgs/template/icons/tw.svg" />
-                                </a>
-                                <a className="icon-socials icon-linkedin" href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-                                    <img alt="LinkedIn" src="/assets/imgs/template/icons/be.svg" />
+                                <a className="icon-socials icon-whatsapp" href="https://wa.me/918951085496" target="_blank" rel="noopener noreferrer">
+                                    <img alt="WhatsApp" src="/assets/imgs/template/icons/whatsapp.svg" />
                                 </a>
                             </div>
                         </div>

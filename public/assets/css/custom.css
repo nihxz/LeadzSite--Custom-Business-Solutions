@@ -1,0 +1,103 @@
+/* Hero Contact Form Styles */
+.form-contact-hero {
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.form-contact-hero input,
+.form-contact-hero select {
+    margin-bottom: 15px;
+    border-radius: 8px !important;
+    transition: all 0.3s ease;
+}
+
+.form-contact-hero input:focus,
+.form-contact-hero select:focus {
+    background-color: rgba(255, 255, 255, 0.18) !important;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.1);
+}
+
+.form-contact-hero input::placeholder,
+.form-contact-hero select {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.form-contact-hero .btn {
+    border-radius: 8px;
+    padding: 12px 15px;
+    transition: all 0.3s ease;
+}
+
+.form-contact-hero .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Rounded Button Styles */
+.btn-rounded-lg {
+    border-radius: 50px !important;
+    padding: 12px 25px !important;
+    transition: all 0.3s ease;
+}
+
+.btn-rounded-lg:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.icon-phone {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Laptop Image Container Styles */
+.laptop-image-container {
+    position: absolute;
+    top: 20%;
+    right: -15%;
+    width: 100%;
+    height: 80%;
+    z-index: 1;
+    pointer-events: none;
+    opacity: 0.9;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.laptop-image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+/* Column containment */
+.col-lg-6 {
+    position: relative;
+    overflow: visible;
+}
+
+/* Reduce vertical spacing for Performance Marketing section */
+.performance-marketing-section {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+}
+
+.performance-marketing-section .banner-hero {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}
+
+.performance-marketing-section .form-control {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 991px) {
+    .laptop-image-container {
+        display: none;
+    }
+} 
