@@ -6,7 +6,7 @@ const TestimonialMasonary = dynamic(() => import('@/components/elements/Testimon
 
 export default function Section8() {
     return (
-        <section className="section-box box-testimonials" style={{ marginTop: '-130px' }}>
+        <section className="section-box box-testimonials" style={{ marginTop: '-40px' }}>
             <div className="container">
                 <div className="row align-items-end">
                     <div className="col-lg-7">

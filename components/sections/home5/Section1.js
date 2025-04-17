@@ -53,7 +53,12 @@ export default function Section1() {
     return (
         <>
             <section className="section-box">
-                <div className="banner-hero hero-1" style={{ marginTop: '160px', padding: '80px 0', position: 'relative', overflow: 'hidden' }}>
+                <div className="banner-hero hero-1" style={{ 
+                    marginTop: '165px',
+                    padding: '120px 0 80px',
+                    position: 'relative', 
+                    overflow: 'hidden' 
+                }}>
                     <div className="banner-inner">
                         <span className="bg-circle shape-3" />
                         <div className="container">
