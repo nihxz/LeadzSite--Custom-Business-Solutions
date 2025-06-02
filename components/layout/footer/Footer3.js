@@ -21,7 +21,7 @@ export default function Footer3() {
                                 <ul className="menu-footer">
                                     <li><Link href="/about">About Us</Link></li>
                                     <li><Link href="/contact">Contact</Link></li>
-                                    <li><Link href="/blog">Blog</Link></li>
+                                    <li><Link href="https://www.leadz.site/service/web-agency" target="_blank" rel="noopener noreferrer">Get started</Link></li>
                                 </ul>
                             </div>
                         </div>
