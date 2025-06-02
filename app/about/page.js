@@ -96,19 +96,19 @@ export default function About() {
                                 <div className="col-lg-8 mb-30">
                                     <div className="box-numbers">
                                         <div className="item-number">
-                                            <h3 className="heading-2"><CounterUp count={3} /> Crore+</h3>
+                                            <h3 className="heading-2"><CounterUp count={2} /> Crore+</h3>
                                             <p className="text-xl neutral-700">Ad Spend</p>
                                         </div>
                                         <div className="item-number">
-                                            <h3 className="heading-2"><CounterUp count={80} /> Crore+</h3>
+                                            <h3 className="heading-2"><CounterUp count={8} /> Crore+</h3>
                                             <p className="text-xl neutral-700">Revenue Generated from Paid Ads</p>
                                         </div>
                                         <div className="item-number">
-                                            <h3 className="heading-2"><CounterUp count={1000} />+</h3>
+                                            <h3 className="heading-2"><CounterUp count={100} />+</h3>
                                             <p className="text-xl neutral-700">Ad Campaigns</p>
                                         </div>
                                         <div className="item-number">
-                                            <h3 className="heading-2"><CounterUp count={100} />+</h3>
+                                            <h3 className="heading-2"><CounterUp count={30} />+</h3>
                                             <p className="text-xl neutral-700">Locations</p>
                                         </div>
                                     </div>
