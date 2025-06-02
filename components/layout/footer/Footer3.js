@@ -59,8 +59,7 @@ export default function Footer3() {
                         </div>
                         <div className="col-md-6 text-md-end text-center">
                             <ul className="menu-bottom-footer">
-                                // <li><Link href="/privacy-policy">Privacy Policy</Link></li>
-                                // <li><Link href="/terms">Terms & Conditions</Link></li>
+                                {/* No footer links here as requested */}
                             </ul>
                         </div>
                     </div>
