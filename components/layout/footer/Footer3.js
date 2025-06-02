@@ -33,15 +33,6 @@ export default function Footer3() {
                                     <li><Link href="/blog">Blog</Link></li>
                                 </ul>
                             </div>
-                            <div className="col-lg-4">
-                                <h6 className="mb-20 text-heading-6">Support</h6>
-                                <ul className="menu-footer">
-                                    <li><Link href="/privacy-policy">Privacy Policy</Link></li>
-                                    <li><Link href="/terms">Terms of Service</Link></li>
-                                    <li><Link href="/faq">FAQ</Link></li>
-                                    <li><Link href="/contact">Get Support</Link></li>
-                                </ul>
-                            </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-4 col-xs-6">
