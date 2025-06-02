@@ -16,7 +16,7 @@ export default function Footer3() {
                     </div>
                     <div className="col-lg-6 col-md-5 col-xs-6">
                         <div className="row mt-80">
-                            <div className="col-lg-4">
+                            <div className="col-lg-6">
                                 <h6 className="mb-20 text-heading-6">Services</h6>
                                 <ul className="menu-footer">
                                     <li><Link href="/services">Performance Marketing</Link></li>
@@ -25,7 +25,7 @@ export default function Footer3() {
                                     <li><Link href="/services">Product Photography</Link></li>
                                 </ul>
                             </div>
-                            <div className="col-lg-4">
+                            <div className="col-lg-6">
                                 <h6 className="mb-20 text-heading-6">Company</h6>
                                 <ul className="menu-footer">
                                     <li><Link href="/about">About Us</Link></li>
