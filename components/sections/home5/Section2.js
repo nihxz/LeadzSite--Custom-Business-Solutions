@@ -1,4 +1,3 @@
-
 import Link from 'next/link'
 import Marquee from 'react-fast-marquee'
 
@@ -9,8 +8,7 @@ export default function Section2() {
             <section className="section-box wow animate__animated animate__fadeIn box-grow">
                 <div className="box-grow-inner">
                     <div className="container">
-                        <h2 className="display-2">From Ideas to Impact<br className="d-none d-lg-block" /> with&nbsp;<span className="text-background"><span className="text-linear-3">LeadzSite</span></span> Expert
-                            Services</h2>
+                        <h2 className="display-2">From Ideas to Impact<br className="d-none d-lg-block" /> with&nbsp;<span className="text-background"><span className="text-linear-3">LeadzSite</span></span> Expert Advertisement Add Ons</h2>
                     </div>
                     <div className="box-all-group-animate">
                         <div className="box-swiper-group-animate">
