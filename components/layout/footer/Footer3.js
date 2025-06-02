@@ -30,7 +30,6 @@ export default function Footer3() {
                                 <ul className="menu-footer">
                                     <li><Link href="/about">About Us</Link></li>
                                     <li><Link href="/contact">Contact</Link></li>
-                                    <li><Link href="/pricing">Pricing</Link></li>
                                     <li><Link href="/blog">Blog</Link></li>
                                 </ul>
                             </div>
@@ -65,7 +64,7 @@ export default function Footer3() {
                 <div className="footer-bottom mt-50">
                     <div className="row">
                         <div className="col-md-6 text-md-start text-center">
-                            <p className="text-sm neutral-600">© 2024 LeadzSite. All rights reserved.</p>
+                            <p className="text-sm neutral-600">© 2025 LeadzSite. All rights reserved.</p>
                         </div>
                         <div className="col-md-6 text-md-end text-center">
                             <ul className="menu-bottom-footer">
