@@ -101,7 +101,7 @@ export default function About() {
                                         </div>
                                         <div className="item-number">
                                             <h3 className="heading-2"><CounterUp count={80} /> Crore+</h3>
-                                            <p className="text-xl neutral-700">Revenue</p>
+                                            <p className="text-xl neutral-700">Revenue Generated from Paid Ads</p>
                                         </div>
                                         <div className="item-number">
                                             <h3 className="heading-2"><CounterUp count={1000} />+</h3>
